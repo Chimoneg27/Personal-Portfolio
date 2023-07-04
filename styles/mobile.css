@@ -27,7 +27,7 @@ body {
   --menu-grey: #3c3a39;
 }
 
-nav {
+header {
   background-color: var(--header-grey);
   color: var(--font-white);
   padding: 0.75rem;
@@ -41,11 +41,11 @@ nav {
   z-index: 2;
 }
 
-nav h2 {
+header h2 {
   font-size: 1.125rem;
 }
 
-nav a {
+header a {
   text-decoration: none;
   color: inherit;
 }
