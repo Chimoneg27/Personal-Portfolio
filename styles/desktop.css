@@ -1,0 +1,29 @@
+@media (min-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    width: 100%;
+    position: relative;
+  }
+
+  :root {
+    --header-grey: #3c3a39;
+    --custom-orange: #ff6b00;
+    --hover-orange: #fff5e1;
+    --font-white: #fff5e1;
+    --font-two: #f4f5f7;
+    --form-header: #172b4d;
+    --white: #fff;
+    --portfolio-black: #1c1a19;
+    --navy-blue: #091e42;
+    --li-grey: #8993a4;
+  }
+
+  nav h2 {
+    margin-left: 3rem;
+  }
+}
