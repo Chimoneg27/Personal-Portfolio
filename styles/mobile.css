@@ -74,7 +74,7 @@ nav a {
     background-color: var(--portfolio-black);
     width: 100%;
     padding: 8rem 1rem;
-    /* background-image: url(/images/Illustrationheadline-bgi-mobile.png); */
+    background-image: url(/images/Illustrationheadline-bgi-mobile.png);
     background-repeat: no-repeat;
     background-position: 100% 120%;
 }
@@ -115,4 +115,8 @@ nav a {
     width: 12.5rem;
     justify-content: space-evenly;
     align-items: center;
+}
+
+button:hover {
+    cursor: pointer;
 }
