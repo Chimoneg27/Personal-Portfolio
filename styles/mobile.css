@@ -40,3 +40,32 @@ nav {
     width: 100%;
     z-index: 2;
 }
+
+nav h2 {
+    font-size: 1.125rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.burger-menu {
+    height: auto;
+    width: auto;
+    display: flex;
+    margin-right: 1rem;
+    flex-direction: column;
+    gap: 0.25rem;
+    align-items: center;
+    z-index: 10;
+}
+
+.bar {
+    width: 1.625rem;
+    height: 0.25rem;
+    background-color: var(--font-white);
+    transition: all 0.5s ease;
+    border-radius: 2px;
+    z-index: 11;
+}
