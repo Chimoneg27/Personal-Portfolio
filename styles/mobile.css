@@ -27,7 +27,7 @@ body {
   --menu-grey: #3c3a39;
 }
 
-header {
+nav {
   background-color: var(--header-grey);
   color: var(--font-white);
   padding: 0.75rem;
@@ -41,13 +41,21 @@ header {
   z-index: 2;
 }
 
-header h2 {
+nav h2 {
   font-size: 1.125rem;
 }
 
-header a {
+nav a {
   text-decoration: none;
   color: inherit;
+}
+
+header {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .burger-menu {
