@@ -69,3 +69,50 @@ nav a {
     border-radius: 2px;
     z-index: 11;
 }
+
+.headline {
+    background-color: var(--portfolio-black);
+    width: 100%;
+    padding: 8rem 1rem;
+    /* background-image: url(/images/Illustrationheadline-bgi-mobile.png); */
+    background-repeat: no-repeat;
+    background-position: 100% 120%;
+}
+
+.headline h1 {
+    color: var(--custom-orange);
+    font-size: 3.5rem;
+    font-family: "Crete Round", 'Times New Roman', Times, serif;
+    font-weight: 400;
+    line-height: 4rem;
+    margin-bottom: 1rem;
+    width: 20.380rem;
+}
+
+.headline h2 {
+    color: var(--font-white);
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2rem;
+    font-family: "Roboto", 'Times New Roman', Times, serif;
+    margin-bottom: 1rem;
+    width: 20.380rem;
+}
+
+.headline p {
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    font-family: "Poppins", 'Times New Roman', Times, serif;
+    width: 20.1rem;
+    margin-bottom: 1rem;
+}
+
+.headline ul {
+    list-style: none;
+    display: flex;
+    width: 12.5rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
