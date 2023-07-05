@@ -217,6 +217,32 @@ main {
   background-color: var(--custom-orange);
 }
 
+.intro button {
+  border: none;
+  font-size: 1rem;
+  color: var(--white);
+  padding: 0.95rem;
+  width: 10rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  font-family: "Inter", 'Times New Roman', Times, serif;
+  background-color: var(--custom-orange);
+}
+
+.cards button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 20.375rem;
+  border: none;
+  background-color: var(--custom-orange);
+  font-weight: 700;
+  color: var(--white);
+  font-size: 1.125rem;
+  font-family: "Inter", 'Times New Roman', Times, serif;
+  padding: 0.75rem;
+}
+
 .yoga-post button:hover {
   background-color: var(--hover-orange);
   border: 1px solid var(--custom-orange);
@@ -273,20 +299,6 @@ main {
   background: rgba(255, 255, 255, 0.24);
 }
 
-.cards button {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 20.375rem;
-  border: none;
-  background-color: var(--custom-orange);
-  font-weight: 700;
-  color: var(--white);
-  font-size: 1.125rem;
-  font-family: "Inter", 'Times New Roman', Times, serif;
-  padding: 0.75rem;
-}
-
 .cards button:hover {
   background-color: var(--hover-orange);
   border: 1px solid var(--custom-orange);
@@ -296,7 +308,7 @@ main {
 
 .about-me {
   width: 100%;
-  padding: 7rem 0rem 4rem 0rem;
+  padding: 7rem 0 4rem 0;
   background-color: var(--portfolio-black);
   display: flex;
   flex-direction: column;
@@ -319,7 +331,7 @@ main {
   font-weight: 400;
   line-height: 4rem;
   margin-bottom: 1rem;
-  width: 20.380rem;
+  width: 20.38rem;
   text-align: left;
 }
 
@@ -330,19 +342,7 @@ main {
   color: var(--font-two);
   font-weight: 400;
   margin-bottom: 1.5rem;
-  width: 20.380rem;
-}
-
-.intro button {
-  border: none;
-  font-size: 1rem;
-  color: var(--white);
-  padding: 0.95rem;
-  width: 10rem;
-  font-weight: 600;
-  line-height: 1.5rem;
-  font-family: "Inter", 'Times New Roman', Times, serif;
-  background-color: var(--custom-orange);
+  width: 20.38rem;
 }
 
 .intro button:hover {
@@ -350,4 +350,63 @@ main {
   border: 1px solid var(--custom-orange);
   color: var(--custom-orange);
   font-weight: 700;
+}
+
+.skills {
+  margin-top: 4rem;
+  width: 100%;
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-1 {
+  width: 100%;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.language {
+  display: flex;
+  width: 100%;
+  gap: 0.5rem;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-family: "Inter", 'Times New Roman', Times, serif;
+  font-weight: 700;
+  color: var(--font-white);
+  margin-bottom: 1.5rem;
+}
+
+.lang-skills {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  color: var(--font-white);
+  font-family: "Inter", 'Times New Roman', Times, serif;
+  font-size: 1.45rem;
+  align-items: center;
+  gap: 1.5rem;
+  font-weight: 400;
+}
+
+.frameworks {
+  display: flex;
+  width: 100%;
+  gap: 1.5rem;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-family: "Inter", 'Times New Roman', Times, serif;
+  font-weight: 700;
+  color: var(--font-white);
+  margin-bottom: 1.5rem;
 }
