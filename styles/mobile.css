@@ -322,6 +322,7 @@ main {
   width: 100%;
   padding: 1rem 1rem 12rem 1rem;
   margin-bottom: 0.65rem;
+  margin-left: 1rem;
 }
 
 .intro h2 {
