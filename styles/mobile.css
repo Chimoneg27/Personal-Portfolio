@@ -260,7 +260,7 @@ main {
 
 .cards {
   width: 20.375rem;
-  padding: 3rem 0.5rem;
+  padding: 3.25rem 0.75rem;
   background-image: url(/images/Img\ cards.png);
   background-repeat: no-repeat;
   position: relative;
