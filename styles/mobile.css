@@ -205,7 +205,7 @@ main h2 {
   border: 1px solid var(--li-grey);
 }
 
-/* .yoga-post button {
+.yoga-post button {
   border: none;
   font-size: 1rem;
   color: var(--white);
@@ -222,4 +222,4 @@ main h2 {
   border: 1px solid var(--custom-orange);
   color: var(--custom-orange);
   font-weight: 700;
-} */
+}
