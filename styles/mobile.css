@@ -286,3 +286,68 @@ main {
   font-family: "Inter", 'Times New Roman', Times, serif;
   padding: 0.75rem;
 }
+
+.cards button:hover {
+  background-color: var(--hover-orange);
+  border: 1px solid var(--custom-orange);
+  color: var(--custom-orange);
+  font-weight: 700;
+}
+
+.about-me {
+  width: 100%;
+  padding: 7rem 0rem 4rem 0rem;
+  background-color: var(--portfolio-black);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(/images/illustration-about-me-mobile.png);
+  background-repeat: no-repeat;
+  background-position: 100% 25%;
+}
+
+.intro {
+  width: 100%;
+  padding: 1rem 1rem 12rem 1rem;
+  margin-bottom: 0.65rem;
+}
+
+.intro h2 {
+  color: var(--custom-orange);
+  font-size: 4.5rem;
+  font-family: "Crete Round", 'Times New Roman', Times, serif;
+  font-weight: 400;
+  line-height: 4rem;
+  margin-bottom: 1rem;
+  width: 20.380rem;
+  text-align: left;
+}
+
+.intro p {
+  font-family: "Inter", 'Times New Roman', Times, serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: var(--font-two);
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  width: 20.380rem;
+}
+
+.intro button {
+  border: none;
+  font-size: 1rem;
+  color: var(--white);
+  padding: 0.95rem;
+  width: 10rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  font-family: "Inter", 'Times New Roman', Times, serif;
+  background-color: var(--custom-orange);
+}
+
+.intro button:hover {
+  background-color: var(--hover-orange);
+  border: 1px solid var(--custom-orange);
+  color: var(--custom-orange);
+  font-weight: 700;
+}
