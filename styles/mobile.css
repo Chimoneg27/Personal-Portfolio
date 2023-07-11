@@ -445,3 +445,14 @@ form {
   justify-content: center;
   gap: 1rem;
 }
+
+input[type='text'] {
+  padding: 1rem;
+  border-bottom: solid 1px var(--li-grey);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
