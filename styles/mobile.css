@@ -522,3 +522,9 @@ footer ul {
   position: absolute;
   bottom: 0;
 }
+
+button:active {
+  background-color: var(--hover-orange);
+  color: var(--font-white);
+  border: solid 2px var(--custom-orange);
+}
