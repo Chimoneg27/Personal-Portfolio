@@ -471,7 +471,7 @@ input[type='email'] {
 form textarea {
   width: 100%;
   height: 7.25rem;
-  font-family: "Inter", "Times New Roman", Times, serif;
+  font-family: 'Inter', 'Times New Roman', Times, serif;
   font-weight: 400;
   line-height: 1.5rem;
   font-size: 1rem;
@@ -487,7 +487,7 @@ form button {
   width: 10rem;
   font-weight: 600;
   line-height: 1.5rem;
-  font-family: "Inter", 'Times New Roman', Times, serif;
+  font-family: 'Inter', 'Times New Roman', Times, serif;
   background-color: var(--custom-orange);
   margin: 0 auto;
 }
@@ -509,4 +509,16 @@ footer {
   padding: 2rem 1rem 4rem 1rem;
   position: relative;
   border-top: 1px solid var(--li-grey);
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  width: 12.5rem;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer-img {
+  position: absolute;
+  bottom: 0;
 }
