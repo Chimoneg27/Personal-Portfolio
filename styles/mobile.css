@@ -78,6 +78,71 @@ header {
   z-index: 11;
 }
 
+form button {
+  border: none;
+  font-size: 1rem;
+  color: var(--white);
+  padding: 0.95rem;
+  width: 10rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  font-family: 'Inter', 'Times New Roman', Times, serif;
+  background-color: var(--custom-orange);
+  margin: 0 auto;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  width: 12.5rem;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+button:active {
+  background-color: var(--hover-orange);
+  color: var(--font-white);
+  border: solid 2px var(--custom-orange);
+}
+
+.yoga-post button {
+  border: none;
+  font-size: 1rem;
+  color: var(--white);
+  padding: 0.75rem;
+  width: 7.75rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  font-family: 'Inter', 'Times New Roman', Times, serif;
+  background-color: var(--custom-orange);
+}
+
+.intro button {
+  border: none;
+  font-size: 1rem;
+  color: var(--white);
+  padding: 0.95rem;
+  width: 10rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  font-family: 'Inter', 'Times New Roman', Times, serif;
+  background-color: var(--custom-orange);
+}
+
+.cards button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 20.375rem;
+  border: none;
+  background-color: var(--custom-orange);
+  font-weight: 700;
+  color: var(--white);
+  font-size: 1.125rem;
+  font-family: 'Inter', 'Times New Roman', Times, serif;
+  padding: 0.75rem;
+}
+
 .headline {
   background-color: var(--portfolio-black);
   width: 100%;
@@ -165,6 +230,13 @@ main {
   display: none;
 }
 
+form button:hover {
+  background-color: var(--hover-orange);
+  border: 1px solid var(--custom-orange);
+  color: var(--custom-orange);
+  font-weight: 700;
+}
+
 .modalTitle-line-1 {
   display: none;
 }
@@ -203,44 +275,6 @@ main {
 .yoga-post li {
   padding: 0.5rem;
   border: 1px solid var(--li-grey);
-}
-
-.yoga-post button {
-  border: none;
-  font-size: 1rem;
-  color: var(--white);
-  padding: 0.75rem;
-  width: 7.75rem;
-  font-weight: 600;
-  line-height: 1.5rem;
-  font-family: 'Inter', 'Times New Roman', Times, serif;
-  background-color: var(--custom-orange);
-}
-
-.intro button {
-  border: none;
-  font-size: 1rem;
-  color: var(--white);
-  padding: 0.95rem;
-  width: 10rem;
-  font-weight: 600;
-  line-height: 1.5rem;
-  font-family: 'Inter', 'Times New Roman', Times, serif;
-  background-color: var(--custom-orange);
-}
-
-.cards button {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 20.375rem;
-  border: none;
-  background-color: var(--custom-orange);
-  font-weight: 700;
-  color: var(--white);
-  font-size: 1.125rem;
-  font-family: 'Inter', 'Times New Roman', Times, serif;
-  padding: 0.75rem;
 }
 
 .yoga-post button:hover {
@@ -479,26 +513,6 @@ form textarea {
   background-color: #fbf8f7;
 }
 
-form button {
-  border: none;
-  font-size: 1rem;
-  color: var(--white);
-  padding: 0.95rem;
-  width: 10rem;
-  font-weight: 600;
-  line-height: 1.5rem;
-  font-family: 'Inter', 'Times New Roman', Times, serif;
-  background-color: var(--custom-orange);
-  margin: 0 auto;
-}
-
-form button:hover {
-  background-color: var(--hover-orange);
-  border: 1px solid var(--custom-orange);
-  color: var(--custom-orange);
-  font-weight: 700;
-}
-
 footer {
   width: 100%;
   display: flex;
@@ -511,20 +525,7 @@ footer {
   border-top: 1px solid var(--li-grey);
 }
 
-footer ul {
-  list-style: none;
-  display: flex;
-  width: 12.5rem;
-  justify-content: space-evenly;
-  align-items: center;
-}
 .footer-img {
   position: absolute;
   bottom: 0;
-}
-
-button:active {
-  background-color: var(--hover-orange);
-  color: var(--font-white);
-  border: solid 2px var(--custom-orange);
 }
