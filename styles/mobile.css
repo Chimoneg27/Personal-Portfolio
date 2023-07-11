@@ -513,6 +513,14 @@ form textarea {
   background-color: #fbf8f7;
 }
 
+form textarea::placeholder {
+  font-style: italic;
+  padding: 0.65rem;
+  color: var(--portfolio-black);
+  font-weight: 700;
+  font-size: 1rem;
+}
+
 footer {
   width: 100%;
   display: flex;
