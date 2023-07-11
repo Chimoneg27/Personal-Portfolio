@@ -31,7 +31,7 @@ nav {
   background-color: var(--header-grey);
   color: var(--font-white);
   padding: 0.75rem;
-  font-family: "Roboto", 'Times New Roman', Times, serif;
+  font-family: 'Roboto', 'Times New Roman', Times, serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -78,6 +78,71 @@ header {
   z-index: 11;
 }
 
+form button {
+  border: none;
+  font-size: 1rem;
+  color: var(--white);
+  padding: 0.95rem;
+  width: 10rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  font-family: 'Inter', 'Times New Roman', Times, serif;
+  background-color: var(--custom-orange);
+  margin: 0 auto;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  width: 12.5rem;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+button:active {
+  background-color: var(--hover-orange);
+  color: var(--font-white);
+  border: solid 2px var(--custom-orange);
+}
+
+.yoga-post button {
+  border: none;
+  font-size: 1rem;
+  color: var(--white);
+  padding: 0.75rem;
+  width: 7.75rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  font-family: 'Inter', 'Times New Roman', Times, serif;
+  background-color: var(--custom-orange);
+}
+
+.intro button {
+  border: none;
+  font-size: 1rem;
+  color: var(--white);
+  padding: 0.95rem;
+  width: 10rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  font-family: 'Inter', 'Times New Roman', Times, serif;
+  background-color: var(--custom-orange);
+}
+
+.cards button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 20.375rem;
+  border: none;
+  background-color: var(--custom-orange);
+  font-weight: 700;
+  color: var(--white);
+  font-size: 1.125rem;
+  font-family: 'Inter', 'Times New Roman', Times, serif;
+  padding: 0.75rem;
+}
+
 .headline {
   background-color: var(--portfolio-black);
   width: 100%;
@@ -90,7 +155,7 @@ header {
 .headline h1 {
   color: var(--custom-orange);
   font-size: 3.5rem;
-  font-family: "Crete Round", 'Times New Roman', Times, serif;
+  font-family: 'Crete Round', 'Times New Roman', Times, serif;
   font-weight: 400;
   line-height: 4rem;
   margin-bottom: 1rem;
@@ -115,7 +180,7 @@ main h2 {
   font-size: 1.5rem;
   font-weight: 700;
   line-height: 2rem;
-  font-family: "Roboto", 'Times New Roman', Times, serif;
+  font-family: 'Roboto', 'Times New Roman', Times, serif;
   margin-bottom: 1rem;
   width: 20.38rem;
 }
@@ -125,7 +190,7 @@ main h2 {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5rem;
-  font-family: "Poppins", 'Times New Roman', Times, serif;
+  font-family: 'Poppins', 'Times New Roman', Times, serif;
   width: 20.1rem;
   margin-bottom: 1rem;
 }
@@ -165,6 +230,13 @@ main {
   display: none;
 }
 
+form button:hover {
+  background-color: var(--hover-orange);
+  border: 1px solid var(--custom-orange);
+  color: var(--custom-orange);
+  font-weight: 700;
+}
+
 .modalTitle-line-1 {
   display: none;
 }
@@ -176,14 +248,14 @@ main {
 .yoga-post h3 {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  font-family: "Crete Round", 'Times New Roman', Times, serif;
+  font-family: 'Crete Round', 'Times New Roman', Times, serif;
   color: var(--navy-blue);
   font-weight: 400;
   font-size: 2rem;
 }
 
 .yoga-post p {
-  font-family: "Inter", 'Times New Roman', Times, serif;
+  font-family: 'Inter', 'Times New Roman', Times, serif;
   color: var(--navy-blue);
   font-size: 1rem;
   line-height: 1.5rem;
@@ -195,7 +267,7 @@ main {
   display: flex;
   width: 19.75rem;
   gap: 0.95rem;
-  font-family: "Inter", 'Times New Roman', Times, serif;
+  font-family: 'Inter', 'Times New Roman', Times, serif;
   font-weight: 500;
   margin-bottom: 1.25rem;
 }
@@ -203,44 +275,6 @@ main {
 .yoga-post li {
   padding: 0.5rem;
   border: 1px solid var(--li-grey);
-}
-
-.yoga-post button {
-  border: none;
-  font-size: 1rem;
-  color: var(--white);
-  padding: 0.75rem;
-  width: 7.75rem;
-  font-weight: 600;
-  line-height: 1.5rem;
-  font-family: "Inter", 'Times New Roman', Times, serif;
-  background-color: var(--custom-orange);
-}
-
-.intro button {
-  border: none;
-  font-size: 1rem;
-  color: var(--white);
-  padding: 0.95rem;
-  width: 10rem;
-  font-weight: 600;
-  line-height: 1.5rem;
-  font-family: "Inter", 'Times New Roman', Times, serif;
-  background-color: var(--custom-orange);
-}
-
-.cards button {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 20.375rem;
-  border: none;
-  background-color: var(--custom-orange);
-  font-weight: 700;
-  color: var(--white);
-  font-size: 1.125rem;
-  font-family: "Inter", 'Times New Roman', Times, serif;
-  padding: 0.75rem;
 }
 
 .yoga-post button:hover {
@@ -268,7 +302,7 @@ main {
 
 .cards h4 {
   font-size: 2rem;
-  font-family: "Crete Round", 'Times New Roman', Times, serif;
+  font-family: 'Crete Round', 'Times New Roman', Times, serif;
   margin-bottom: 1rem;
   color: var(--white);
   font-weight: 400;
@@ -276,7 +310,7 @@ main {
 }
 
 .cards p {
-  font-family: "Inter", 'Times New Roman', Times, serif;
+  font-family: 'Inter', 'Times New Roman', Times, serif;
   font-size: 1rem;
   line-height: 1.5rem;
   color: var(--white);
@@ -289,7 +323,7 @@ main {
   gap: 0.75rem;
   margin-bottom: 1rem;
   list-style: none;
-  font-family: "Inter", 'Times New Roman', Times, serif;
+  font-family: 'Inter', 'Times New Roman', Times, serif;
   line-height: 1.25rem;
 }
 
@@ -328,7 +362,7 @@ main {
 .intro h2 {
   color: var(--custom-orange);
   font-size: 4.5rem;
-  font-family: "Crete Round", 'Times New Roman', Times, serif;
+  font-family: 'Crete Round', 'Times New Roman', Times, serif;
   font-weight: 400;
   line-height: 4rem;
   margin-bottom: 1rem;
@@ -337,7 +371,7 @@ main {
 }
 
 .intro p {
-  font-family: "Inter", 'Times New Roman', Times, serif;
+  font-family: 'Inter', 'Times New Roman', Times, serif;
   font-size: 1rem;
   line-height: 1.5rem;
   color: var(--font-two);
@@ -379,7 +413,7 @@ main {
   justify-content: center;
   align-items: center;
   font-size: 2rem;
-  font-family: "Inter", 'Times New Roman', Times, serif;
+  font-family: 'Inter', 'Times New Roman', Times, serif;
   font-weight: 700;
   color: var(--font-white);
   margin-bottom: 1.5rem;
@@ -391,7 +425,7 @@ main {
   flex-direction: column;
   list-style: none;
   color: var(--font-white);
-  font-family: "Inter", 'Times New Roman', Times, serif;
+  font-family: 'Inter', 'Times New Roman', Times, serif;
   font-size: 1.45rem;
   align-items: center;
   gap: 1.5rem;
@@ -406,8 +440,100 @@ main {
   justify-content: center;
   align-items: center;
   font-size: 2rem;
-  font-family: "Inter", 'Times New Roman', Times, serif;
+  font-family: 'Inter', 'Times New Roman', Times, serif;
   font-weight: 700;
   color: var(--font-white);
   margin-bottom: 1.5rem;
+}
+
+.form-container {
+  width: 100%;
+  padding: 5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.form-container p {
+  font-family: 'Inter', 'Times New Roman', Times, serif;
+  width: 100%;
+  color: var(--navy-blue);
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 2.75rem;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.form-intro {
+  text-align: center;
+  padding: 0 1rem 1rem 1rem;
+}
+
+form {
+  width: 20.5rem;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+input[type='text'] {
+  padding: 1rem;
+  border-bottom: solid 1px var(--li-grey);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+input[type='email'] {
+  padding: 1rem;
+  border-bottom: solid 1px var(--li-grey);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+form textarea {
+  width: 100%;
+  height: 7.25rem;
+  font-family: 'Inter', 'Times New Roman', Times, serif;
+  font-weight: 400;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  border: none;
+  padding: 12px;
+  background-color: #fbf8f7;
+}
+
+form textarea::placeholder {
+  font-style: italic;
+  color: var(--portfolio-black);
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 2rem 1rem 4rem 1rem;
+  position: relative;
+  border-top: 1px solid var(--li-grey);
+}
+
+.footer-img {
+  position: absolute;
+  bottom: 0;
 }
