@@ -515,10 +515,10 @@ form textarea {
 }
 
 form textarea::placeholder {
-   font-style: italic;
-   color: var(--portfolio-black);
-   font-weight: 700;
-   font-size: 1rem;
+  font-style: italic;
+  color: var(--portfolio-black);
+  font-weight: 700;
+  font-size: 1rem;
 }
 
 footer {
