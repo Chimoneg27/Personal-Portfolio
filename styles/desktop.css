@@ -299,7 +299,34 @@
   justify-content: flex-start;
 }
 
-.box-1:nth-child(3) {
-  margin-top: 3rem;
+.box-1:nth-child(1) {
+  margin-top: -3.5rem;
+}
+
+.form-container {
+  flex-direction: row;
+  width: 90%;
+  justify-content: center;
+}
+
+.form-itro {
+  width: 45%;
+}
+
+.form-itro p {
+  width: 29rem;
+  text-align: left;
+  margin-left: 8rem;
+  padding-right: 3rem;
+  font-size: 2.5rem;
+}
+
+form {
+  width: 55%;
+}
+
+form button {
+  margin-left: 0rem;
+  margin-top: 0.5rem;
 }
 }
