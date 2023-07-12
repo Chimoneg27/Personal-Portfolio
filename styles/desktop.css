@@ -231,41 +231,75 @@
     cursor: pointer;
   }  
 
-  .cards span {
-    display: block;
-  }
+.cards span {
+  display: block;
+}
 
-  .intro {
-    width: 35rem;
-    padding: 2rem 1rem 5rem 1rem;
-    margin-left: -40rem;
+.intro {
+  width: 35rem;
+  padding: 2rem 1rem 5rem 1rem;
+  margin-left: -40rem;
 }
 
 .intro h2 {
-    font-size: 4.5rem;
-    line-height: 5.125rem;
-    width: 100%;
+  font-size: 4.5rem;
+  line-height: 5.125rem;
+  width: 100%;
 }
 
 .intro p {
-    width: 100%;
-    font-size: 1.25rem;
-    line-height: 2rem;
-    font-weight: 400;
+  width: 100%;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  font-weight: 400;
 }
 
 .intro button {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .about-me {
-    background-image: url(/images/desktop-images/illustration-about\ me\(1\).png), url(/images/desktop-images/Vector\ 4about-vector.jpg);
-    background-repeat: no-repeat;
-    background-position: 100% 11%, 50% 51%;
+  background-image: url(/images/desktop-images/illustration-about\ me\(1\).png), url(/images/desktop-images/Vector\ 4about-vector.jpg);
+  background-repeat: no-repeat;
+  background-position: 100% 11%, 50% 51%;
 }
 
 .mobile-vector {
-    display: none;
+  display: none;
 }
 
+.skills {
+  flex-direction: row;
+  padding: 5rem 1rem;
+  margin-top: 5rem;
+}
+
+.lang-skills {
+  width: 55%;
+  align-items: flex-start;
+}
+
+.box-1 {
+  width: 100%;
+  padding: 1rem 0.5rem;
+}
+
+.language {
+  width: 60%;
+  justify-content: flex-start;
+}
+
+.lang-skills {
+  width: 60%;
+  justify-content: flex-start;
+}
+
+.frameworks {
+  width: 60%;
+  justify-content: flex-start;
+}
+
+.box-1:nth-child(3) {
+  margin-top: 3rem;
+}
 }
