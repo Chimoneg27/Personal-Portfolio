@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   * {
     margin: 0;
     padding: 0;
@@ -46,102 +46,193 @@
   nav h2 {
     margin-left: 4rem;
   }
-}
 
-.headline {
-  padding: 13rem 1rem;
-  display: flex;
-  width: 100%;
-  background-image: url(/images/desktop-images/Illustration-headerDesktop-headline-img.png);
-  background-repeat: no-repeat;
-  background-position: 100% 10%;
-}
+  .headline {
+    padding: 13rem 1rem;
+    display: flex;
+    width: 100%;
+    background-image: url(/images/desktop-images/Illustration-headerDesktop-headline-img.png);
+    background-repeat: no-repeat;
+    background-position: 100% 10%;
+  }
+  
+  .headline-intro {
+    margin-left: 10rem;
+  }
+  
+  .headline h1 {
+    font-size: 4.5rem;
+    width: 35.375rem;
+    margin-bottom: 1.5rem;
+  }
 
-.headline-intro {
-  margin-left: 10rem;
-}
+  header {
+    width: 100%;
+  }
+  
+  .headline h2 {
+    font-size: 2rem;
+    width: 35.375rem;
+    margin-bottom: 1.25rem;
+  }
+  
+  .headline p {
+    font-size: 1.375rem;
+    width: 35.375rem;
+    font-weight: 400;
+    line-height: 2rem;
+    margin-top: 1rem;
+  }
+  
+  .headline ul {
+    margin-left: -46rem;
+    width: 5rem;
+    flex-direction: column;
+  }
+  
+  main {
+    padding: 8rem 2rem;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  main h2 {
+    flex-direction: row;
+    width: 80rem;
+    color: var(--navy-blue);
+    margin-bottom: 4rem;
+  }
+  
+  .title-line-1 {
+    display: none;
+  }
+  
+  .desktop-works-line {
+    display: block;
+  }
+  
+  .yoga-post {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+  }
+  
+  .yoga-info { 
+    width: 45%;
+  }
+  
+  .yoga-one {
+    display: none;
+  }
+  
+  .yoga-two {
+    display: block;
+  }
+  
+  .yoga-post img {
+    width: 55%;
+  }
+  
+  .yoga-post h3 {
+    width: 28rem;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .yoga-post p {
+    font-size: 1.25rem;
+    margin-bottom: 1.75rem;
+  }
+  
+  .yoga-post ul {
+    width: 20rem;
+    margin-bottom: 2rem;
+  }
+  
+  .project-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 20.44rem);
+    grid-template-rows: repeat(2, 24.125rem);
+    justify-content: center;
+    width: 100%;
+    row-gap: 2rem;
+    column-gap: 2rem;
+  }
+  
+  .cards {
+    width: 24rem;
+    padding: 7rem 0.5rem 0 0.5rem;
+    position: relative;
+  }
+  
+  .cards h4 {
+    margin-right: 2rem;
+    display: none;
+  }
+  
+  .cards ul {
+    margin-top: 2rem;
+  }
+  
+  .cards span {
+    font-size: 2rem;
+    font-family: 'Crete Round', 'Times New Roman', Times, serif;
+    margin-bottom: 1rem;
+    color: var(--white);
+    font-weight: 400;
+    line-height: 2.75rem;
+  }
+  
+  .third-p {
+    margin-top: 3.5rem;
+  }
+  
+  .cards p {
+    margin-right: 2rem;
+  }
+  
+  .cards:nth-child(3) {
+    padding-top: 7rem;
+  }
+  
+  .cards button {
+    position: absolute;
+    bottom: 0rem;
+    visibility: hidden;
+  }
+  
+  .cards:hover {
+    border: 3px solid rgb(35, 35, 219);
+    width: fit-content;
+    cursor: pointer;
+  }
+  .cards:hover button {
+    visibility: visible;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .cards:hover p {
+    visibility: hidden;
+  }
+  
+  .cards:hover span {
+    visibility: hidden;
+  } 
+  
+  .cards:hover ul {
+    visibility: hidden;
+  } 
+  
+  .cards:nth-child(1):hover {
+    background-image: url(/images/desktop-images/Img\ Placeholder\(1\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+  }  
 
-.headline h1 {
-  font-size: 4.5rem;
-  width: 35.375rem;
-  margin-bottom: 1.5rem;
-}
+  .cards span {
+    display: block;
+  }
 
-.headline h2 {
-  font-size: 2rem;
-  width: 35.375rem;
-  margin-bottom: 1.25rem;
-}
-
-.headline p {
-  font-size: 1.375rem;
-  width: 35.375rem;
-  font-weight: 400;
-  line-height: 2rem;
-  margin-top: 1rem;
-}
-
-.headline ul {
-  margin-left: -46rem;
-  width: 5rem;
-  flex-direction: column;
-}
-
-main {
-  padding: 8rem 2rem;
-  width: 90%;
-  margin: 0 auto;
-}
-
-main h2 {
-  flex-direction: row;
-  width: 80rem;
-  color: var(--navy-blue);
-  margin-bottom: 4rem;
-}
-
-.title-line-1 {
-  display: none;
-}
-
-.desktop-works-line {
-  display: block;
-}
-
-.yoga-post {
-  display: flex;
-  gap: 1rem;
-  width: 100%;
-}
-
-.yoga-info { 
-  width: 45%;
-}
-
-.yoga-one {
-  display: none;
-}
-
-.yoga-two {
-  display: block;
-}
-
-.yoga-post img {
-  width: 55%;
-}
-
-.yoga-post h3 {
-  width: 28rem;
-  font-size: 2.5rem;
-  margin-bottom: 2rem;
-}
-
-.yoga-post p {
-  font-size: 1.25rem;
-  margin-bottom: 1.75rem;
-}
-
-.yoga-post ul {
-  width: 20rem;
-  margin-bottom: 2rem;
 }

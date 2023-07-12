@@ -220,6 +220,14 @@ main {
   display: block;
 }
 
+.desktop-works-line {
+  display: none;
+}
+
+.yoga-two {
+  display: none;
+}
+
 .yoga-post {
   margin-top: -2rem;
   padding: 1rem;
@@ -227,6 +235,10 @@ main {
 }
 
 .desktop-works-line {
+  display: none;
+}
+
+.desktop-nav {
   display: none;
 }
 
@@ -307,6 +319,10 @@ form button:hover {
   color: var(--white);
   font-weight: 400;
   line-height: 2.75rem;
+}
+
+.cards span {
+  display: none;
 }
 
 .cards p {
