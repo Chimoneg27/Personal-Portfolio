@@ -23,7 +23,26 @@
     --li-grey: #8993a4;
   }
 
+  .desktop-nav {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+    margin-right: 4rem;
+    font-size: 1rem;
+    font-weight: 700;
+    align-items: center;
+    padding: 0.25rem 0.5rem;
+  }
+  
+  .mobile-nav {
+    display: none;
+  }
+
+  .burger-menu {
+    display: none;
+  }
+
   nav h2 {
-    margin-left: 3rem;
+    margin-left: 4rem;
   }
 }
