@@ -235,4 +235,37 @@
     display: block;
   }
 
+  .intro {
+    width: 35rem;
+    padding: 2rem 1rem 5rem 1rem;
+    margin-left: -40rem;
+}
+
+.intro h2 {
+    font-size: 4.5rem;
+    line-height: 5.125rem;
+    width: 100%;
+}
+
+.intro p {
+    width: 100%;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    font-weight: 400;
+}
+
+.intro button {
+    margin-top: 2rem;
+}
+
+.about-me {
+    background-image: url(/images/desktop-images/illustration-about\ me\(1\).png), url(/images/desktop-images/Vector\ 4about-vector.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 11%, 50% 51%;
+}
+
+.mobile-vector {
+    display: none;
+}
+
 }
