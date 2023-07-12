@@ -330,6 +330,22 @@ form button {
   margin-top: 0.5rem;
 }
 
+.footer-img {
+  visibility: hidden;
+}
+
+footer {
+  padding: 2rem 1rem;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  width: 12.5rem;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 input[type=text] {
   padding: 1.25rem;
 }
