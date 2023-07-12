@@ -86,3 +86,62 @@
   width: 5rem;
   flex-direction: column;
 }
+
+main {
+  padding: 8rem 2rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+main h2 {
+  flex-direction: row;
+  width: 80rem;
+  color: var(--navy-blue);
+  margin-bottom: 4rem;
+}
+
+.title-line-1 {
+  display: none;
+}
+
+.desktop-works-line {
+  display: block;
+}
+
+.yoga-post {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+
+.yoga-info { 
+  width: 45%;
+}
+
+.yoga-one {
+  display: none;
+}
+
+.yoga-two {
+  display: block;
+}
+
+.yoga-post img {
+  width: 55%;
+}
+
+.yoga-post h3 {
+  width: 28rem;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.yoga-post p {
+  font-size: 1.25rem;
+  margin-bottom: 1.75rem;
+}
+
+.yoga-post ul {
+  width: 20rem;
+  margin-bottom: 2rem;
+}
