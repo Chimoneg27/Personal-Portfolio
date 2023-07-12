@@ -234,10 +234,6 @@ main {
   margin-bottom: 1.25rem;
 }
 
-.desktop-works-line {
-  display: none;
-}
-
 .desktop-nav {
   display: none;
 }
@@ -250,10 +246,6 @@ form button:hover {
 }
 
 .modalTitle-line-1 {
-  display: none;
-}
-
-.yoga-two {
   display: none;
 }
 

@@ -34,7 +34,7 @@
     align-items: center;
     padding: 0.25rem 0.5rem;
   }
-  
+
   .mobile-nav {
     display: none;
   }
@@ -55,11 +55,11 @@
     background-repeat: no-repeat;
     background-position: 100% 10%;
   }
-  
+
   .headline-intro {
     margin-left: 10rem;
   }
-  
+
   .headline h1 {
     font-size: 4.5rem;
     width: 35.375rem;
@@ -69,13 +69,20 @@
   header {
     width: 100%;
   }
-  
+
+  main h2 {
+    flex-direction: row;
+    width: 80rem;
+    color: var(--navy-blue);
+    margin-bottom: 4rem;
+  }
+
   .headline h2 {
     font-size: 2rem;
     width: 35.375rem;
     margin-bottom: 1.25rem;
   }
-  
+
   .headline p {
     font-size: 1.375rem;
     width: 35.375rem;
@@ -83,72 +90,73 @@
     line-height: 2rem;
     margin-top: 1rem;
   }
-  
+
+  footer ul {
+    list-style: none;
+    display: flex;
+    width: 12.5rem;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
   .headline ul {
     margin-left: -46rem;
     width: 5rem;
     flex-direction: column;
   }
-  
+
   main {
     padding: 8rem 2rem;
     width: 90%;
     margin: 0 auto;
   }
-  
-  main h2 {
-    flex-direction: row;
-    width: 80rem;
-    color: var(--navy-blue);
-    margin-bottom: 4rem;
-  }
-  
+
   .title-line-1 {
     display: none;
   }
-  
+
   .desktop-works-line {
     display: block;
   }
-  
+
   .yoga-post {
     display: flex;
     gap: 1rem;
     width: 100%;
   }
-  
-  .yoga-info { 
+
+  .yoga-info {
     width: 45%;
   }
-  
+
   .yoga-one {
     display: none;
   }
-  
+
   .yoga-two {
     display: block;
   }
-  
+
   .yoga-post img {
     width: 55%;
   }
-  
+
   .yoga-post h3 {
     width: 28rem;
     font-size: 2.5rem;
     margin-bottom: 2rem;
   }
-  
+
   .yoga-post p {
     font-size: 1.25rem;
     margin-bottom: 1.75rem;
   }
-  
+
   .yoga-post ul {
     width: 20rem;
     margin-bottom: 2rem;
   }
-  
+
   .project-cards {
     display: grid;
     grid-template-columns: repeat(3, 20.44rem);
@@ -158,22 +166,22 @@
     row-gap: 2rem;
     column-gap: 2rem;
   }
-  
+
   .cards {
     width: 24rem;
     padding: 7rem 0.5rem 0 0.5rem;
     position: relative;
   }
-  
+
   .cards h4 {
     margin-right: 2rem;
     display: none;
   }
-  
+
   .cards ul {
     margin-top: 2rem;
   }
-  
+
   .cards span {
     font-size: 2rem;
     font-family: 'Crete Round', 'Times New Roman', Times, serif;
@@ -181,176 +189,161 @@
     color: var(--white);
     font-weight: 400;
     line-height: 2.75rem;
+    display: block;
   }
-  
+
   .third-p {
     margin-top: 3.5rem;
   }
-  
+
   .cards p {
     margin-right: 2rem;
   }
-  
+
   .cards:nth-child(3) {
     padding-top: 7rem;
   }
-  
+
+  form button {
+    margin-left: 0;
+    margin-top: 0.5rem;
+  }
+
   .cards button {
     position: absolute;
-    bottom: 0rem;
+    bottom: 0;
     visibility: hidden;
   }
-  
+
   .cards:hover {
     border: 3px solid rgb(35, 35, 219);
     width: fit-content;
     cursor: pointer;
   }
+
+  .intro button {
+    margin-top: 2rem;
+  }
+
   .cards:hover button {
     visibility: visible;
     cursor: pointer;
     width: 100%;
   }
-  
+
+  .intro p {
+    width: 100%;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    font-weight: 400;
+  }
+
+  .form-itro p {
+    width: 29rem;
+    text-align: left;
+    margin-left: 8rem;
+    padding-right: 3rem;
+    font-size: 2.5rem;
+  }
+
   .cards:hover p {
     visibility: hidden;
   }
-  
+
   .cards:hover span {
     visibility: hidden;
-  } 
-  
+  }
+
   .cards:hover ul {
     visibility: hidden;
-  } 
-  
+  }
+
   .cards:nth-child(1):hover {
-    background-image: url(/images/desktop-images/Img\ Placeholder\(1\).png);
+    background-image: url(/images/desktop-images/Img\ Placeholderhover.png);
     background-repeat: no-repeat;
     background-size: contain;
     cursor: pointer;
-  }  
+  }
 
-.cards span {
-  display: block;
-}
+  .intro {
+    width: 35rem;
+    padding: 2rem 1rem 5rem 1rem;
+    margin-left: -40rem;
+  }
 
-.intro {
-  width: 35rem;
-  padding: 2rem 1rem 5rem 1rem;
-  margin-left: -40rem;
-}
+  .intro h2 {
+    font-size: 4.5rem;
+    line-height: 5.125rem;
+    width: 100%;
+  }
 
-.intro h2 {
-  font-size: 4.5rem;
-  line-height: 5.125rem;
-  width: 100%;
-}
+  .about-me {
+    background-image: url(/images/desktop-images/illustration-about\ me\ desktop.png);
+    background-repeat: no-repeat;
+    background-position: 100% 11%, 50% 51%;
+  }
 
-.intro p {
-  width: 100%;
-  font-size: 1.25rem;
-  line-height: 2rem;
-  font-weight: 400;
-}
+  .mobile-vector {
+    display: none;
+  }
 
-.intro button {
-  margin-top: 2rem;
-}
+  .skills {
+    flex-direction: row;
+    padding: 5rem 1rem;
+    margin-top: 5rem;
+  }
 
-.about-me {
-  background-image: url(/images/desktop-images/illustration-about\ me\(1\).png), url(/images/desktop-images/Vector\ 4about-vector.jpg);
-  background-repeat: no-repeat;
-  background-position: 100% 11%, 50% 51%;
-}
+  .lang-skills {
+    width: 55%;
+    align-items: flex-start;
+  }
 
-.mobile-vector {
-  display: none;
-}
+  .box-1 {
+    width: 100%;
+    padding: 1rem 0.5rem;
+  }
 
-.skills {
-  flex-direction: row;
-  padding: 5rem 1rem;
-  margin-top: 5rem;
-}
+  .language {
+    width: 60%;
+    justify-content: flex-start;
+  }
 
-.lang-skills {
-  width: 55%;
-  align-items: flex-start;
-}
+  .frameworks {
+    width: 60%;
+    justify-content: flex-start;
+  }
 
-.box-1 {
-  width: 100%;
-  padding: 1rem 0.5rem;
-}
+  .box-1:nth-child(1) {
+    margin-top: -3.5rem;
+  }
 
-.language {
-  width: 60%;
-  justify-content: flex-start;
-}
+  .form-container {
+    flex-direction: row;
+    width: 90%;
+    justify-content: center;
+  }
 
-.lang-skills {
-  width: 60%;
-  justify-content: flex-start;
-}
+  .form-itro {
+    width: 45%;
+  }
 
-.frameworks {
-  width: 60%;
-  justify-content: flex-start;
-}
+  form {
+    width: 55%;
+  }
 
-.box-1:nth-child(1) {
-  margin-top: -3.5rem;
-}
+  .footer-img {
+    visibility: hidden;
+  }
 
-.form-container {
-  flex-direction: row;
-  width: 90%;
-  justify-content: center;
-}
+  footer {
+    padding: 2rem 1rem;
+  }
 
-.form-itro {
-  width: 45%;
-}
+  input[type=text] {
+    padding: 1.25rem;
+  }
 
-.form-itro p {
-  width: 29rem;
-  text-align: left;
-  margin-left: 8rem;
-  padding-right: 3rem;
-  font-size: 2.5rem;
-}
-
-form {
-  width: 55%;
-}
-
-form button {
-  margin-left: 0rem;
-  margin-top: 0.5rem;
-}
-
-.footer-img {
-  visibility: hidden;
-}
-
-footer {
-  padding: 2rem 1rem;
-}
-
-footer ul {
-  list-style: none;
-  display: flex;
-  width: 12.5rem;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-input[type=text] {
-  padding: 1.25rem;
-}
-
-input[type="email"] {
-  padding: 1.25rem;
-}
+  input[type="email"] {
+    padding: 1.25rem;
+  }
 }
