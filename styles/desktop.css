@@ -385,7 +385,7 @@
   .intro {
     margin-left: -40rem;
   }
-  
+
   .project-cards {
     grid-template-columns: repeat(3, 20rem);
   }
