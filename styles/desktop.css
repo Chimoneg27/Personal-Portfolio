@@ -257,7 +257,8 @@
   .form-itro p {
     width: 100%;
     text-align: justify;
-    padding-right: 1rem;
+    padding-right: 2rem;
+    padding-left: 8rem;
     font-size: 2.5rem;
   }
 
