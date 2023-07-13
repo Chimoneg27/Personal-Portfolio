@@ -165,7 +165,7 @@
 
   .project-cards {
     display: grid;
-    grid-template-columns: repeat(3, 20rem);
+    grid-template-columns: repeat(2, 20rem);
     justify-content: center;
     width: 100%;
     row-gap: 2rem;
@@ -283,7 +283,7 @@
   .intro {
     width: 35rem;
     padding: 2rem 1rem 5rem 1rem;
-    margin-left: -40rem;
+    margin-left: -25rem;
   }
 
   .intro h2 {
@@ -305,10 +305,10 @@
 
   .skills {
     flex-direction: row;
-    width: 95%;
-    padding: 5rem 0;
-    margin: 5rem -5rem 0 auto;
-    gap: 1rem;
+    width: 90%;
+    padding: 5rem 0 5rem 3rem;
+    margin: 5rem auto 0 auto;
+    gap: 2rem;
   }
 
   .lang-skills {
@@ -317,8 +317,8 @@
   }
 
   .box-1 {
-    width: 100%;
-    padding: 1rem 0.5rem;
+    width: 95%;
+    padding: 1rem 0;
   }
 
   .language {
@@ -334,6 +334,10 @@
 
   .box-1:nth-child(1) {
     margin-top: -3.5rem;
+  }
+
+  .box-1:nth-child(3) {
+    width: 85%;
   }
 
   .form-container {
@@ -367,9 +371,9 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .project-cards {
-    grid-template-columns: repeat(2, 20rem);
+    grid-template-columns: repeat(3, 20rem);
   }
 
   .intro {
@@ -377,8 +381,12 @@
   }
 }
 
-@media screen and (max-width: 1235px) {
+@media screen and (min-width: 1235px) {
   .intro {
-    margin-left: -20rem;
+    margin-left: -40rem;
+  }
+  
+  .project-cards {
+    grid-template-columns: repeat(3, 20rem);
   }
 }
