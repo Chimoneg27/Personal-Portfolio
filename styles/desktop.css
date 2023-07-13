@@ -1,4 +1,4 @@
-@media (min-width: 769px) {
+@media screen and (min-width: 769px) {
   * {
     margin: 0;
     padding: 0;
@@ -68,13 +68,18 @@
 
   header {
     width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2;
   }
 
   main h2 {
     flex-direction: row;
-    width: 80rem;
+    width: 100%;
     color: var(--navy-blue);
     margin-bottom: 4rem;
+    font-size: 2.75rem;
   }
 
   .headline h2 {
@@ -106,7 +111,7 @@
   }
 
   main {
-    padding: 8rem 2rem;
+    padding: 8rem 1rem;
     width: 90%;
     margin: 0 auto;
   }
@@ -117,6 +122,7 @@
 
   .desktop-works-line {
     display: block;
+    width: 65%;
   }
 
   .yoga-post {
@@ -142,7 +148,7 @@
   }
 
   .yoga-post h3 {
-    width: 28rem;
+    width: 60%;
     font-size: 2.5rem;
     margin-bottom: 2rem;
   }
@@ -153,28 +159,28 @@
   }
 
   .yoga-post ul {
-    width: 20rem;
+    width: 55%;
     margin-bottom: 2rem;
   }
 
   .project-cards {
     display: grid;
-    grid-template-columns: repeat(3, 20.44rem);
-    grid-template-rows: repeat(2, 24.125rem);
+    grid-template-columns: repeat(3, 20rem);
     justify-content: center;
     width: 100%;
     row-gap: 2rem;
-    column-gap: 2rem;
+    column-gap: 1rem;
   }
 
   .cards {
-    width: 24rem;
-    padding: 7rem 0.5rem 0 0.5rem;
+    width: 20rem;
+    height: 24rem;
+    padding: 4rem 0.5rem;
     position: relative;
   }
 
   .cards h4 {
-    margin-right: 2rem;
+    /* margin-right: 2rem; */
     display: none;
   }
 
@@ -188,11 +194,21 @@
     margin-bottom: 1rem;
     color: var(--white);
     font-weight: 400;
+    margin-left: -0.25rem;
     line-height: 2.75rem;
     display: block;
+    width: 100%;
   }
 
   .third-p {
+    margin-top: 3.5rem;
+  }
+
+  .third-span {
+    margin-top: -2.85rem;
+  }
+
+  .thid-span-p {
     margin-top: 3.5rem;
   }
 
@@ -212,12 +228,12 @@
   .cards button {
     position: absolute;
     bottom: 0;
-    visibility: hidden;
+    display: none;
   }
 
   .cards:hover {
     border: 3px solid rgb(35, 35, 219);
-    width: fit-content;
+    width: none;
     cursor: pointer;
   }
 
@@ -226,7 +242,7 @@
   }
 
   .cards:hover button {
-    visibility: visible;
+    display: block;
     cursor: pointer;
     width: 100%;
   }
@@ -239,10 +255,9 @@
   }
 
   .form-itro p {
-    width: 29rem;
-    text-align: left;
-    margin-left: 8rem;
-    padding-right: 3rem;
+    width: 100%;
+    text-align: justify;
+    padding-right: 1rem;
     font-size: 2.5rem;
   }
 
@@ -281,6 +296,7 @@
     background-image: url(/images/desktop-images/illustration-about\ me\ desktop.png), url(/images/desktop-images/about-me-line.jpg);
     background-repeat: no-repeat;
     background-position: 100% 11%, 50% 51%;
+    position: relative;
   }
 
   .mobile-vector {
@@ -289,12 +305,14 @@
 
   .skills {
     flex-direction: row;
-    padding: 5rem 1rem;
-    margin-top: 5rem;
+    width: 95%;
+    padding: 5rem 0;
+    margin: 5rem auto 0 auto;
+    gap: 1rem;
   }
 
   .lang-skills {
-    width: 55%;
+    width: 100%;
     align-items: flex-start;
   }
 
@@ -304,12 +322,13 @@
   }
 
   .language {
-    width: 60%;
+    width: 100%;
+    align-items: center;
     justify-content: flex-start;
   }
 
   .frameworks {
-    width: 60%;
+    width: 100%;
     justify-content: flex-start;
   }
 
@@ -319,7 +338,7 @@
 
   .form-container {
     flex-direction: row;
-    width: 90%;
+    width: 100%;
     justify-content: center;
   }
 
@@ -345,5 +364,21 @@
 
   input[type="email"] {
     padding: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .project-cards {
+    grid-template-columns: repeat(2, 20rem);
+  }
+
+  .intro {
+    margin-left: -20rem;
+  }
+}
+
+@media screen and (max-width: 1235px) {
+  .intro {
+    margin-left: -20rem;
   }
 }
