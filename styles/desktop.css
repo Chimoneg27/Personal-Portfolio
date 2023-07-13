@@ -307,7 +307,7 @@
     flex-direction: row;
     width: 95%;
     padding: 5rem 0;
-    margin: 5rem auto 0 auto;
+    margin: 5rem -5rem 0 auto;
     gap: 1rem;
   }
 
