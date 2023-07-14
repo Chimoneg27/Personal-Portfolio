@@ -47,6 +47,18 @@
     margin-left: 4rem;
   }
 
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
   .headline {
     padding: 13rem 1rem;
     display: flex;
@@ -234,8 +246,8 @@
     border: 3px solid rgb(35, 35, 219);
     width: none;
     cursor: pointer;
-    transform: scale(1.10);
-    transition: .5s;
+    transform: scale(1.1);
+    transition: 0.5s;
   }
 
   .intro button {
@@ -295,7 +307,8 @@
   }
 
   .about-me {
-    background-image: url(/images/desktop-images/illustration-about\ me\ desktop.png), url(/images/desktop-images/about-me-line.jpg);
+    background-image: url(/images/desktop-images/illustration-about\ me\ desktop.png),
+      url(/images/desktop-images/about-me-line.jpg);
     background-repeat: no-repeat;
     background-position: 100% 11%, 50% 51%;
     position: relative;
@@ -364,11 +377,11 @@
     padding: 2rem 1rem;
   }
 
-  input[type=text] {
+  input[type='text'] {
     padding: 1.25rem;
   }
 
-  input[type="email"] {
+  input[type='email'] {
     padding: 1.25rem;
   }
 }
