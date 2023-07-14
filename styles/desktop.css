@@ -60,6 +60,12 @@
     }
   }
 
+  button:active {
+    transition: 0.6s;
+    background-color: var(--white);
+    color: orange;
+  }
+
   .headline {
     padding: 13rem 1rem;
     display: flex;
