@@ -52,12 +52,19 @@
     0% {
       transform: scale(1);
     }
+
     50% {
       transform: scale(1.2);
     }
+
     100% {
       transform: scale(1);
     }
+  }
+
+  form button {
+    margin-left: 0;
+    margin-top: 0.5rem;
   }
 
   button:active {
@@ -238,11 +245,6 @@
     padding-top: 7rem;
   }
 
-  form button {
-    margin-left: 0;
-    margin-top: 0.5rem;
-  }
-
   .cards button {
     position: absolute;
     bottom: 0;
@@ -314,7 +316,8 @@
   }
 
   .about-me {
-    background-image: url(/images/desktop-images/illustration-about\ me\ desktop.png),
+    background-image:
+      url(/images/desktop-images/illustration-about\ me\ desktop.png),
       url(/images/desktop-images/about-me-line.jpg);
     background-repeat: no-repeat;
     background-position: 100% 11%, 50% 51%;
