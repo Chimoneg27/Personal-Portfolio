@@ -319,7 +319,7 @@
   }
 
   .about-me {
-    background-image: url(../images/desktop-images/illustration-about\me\ desktop.png), url(../images/desktop-images/about-me-line.jpg);
+    background-image: url(../images/desktop-images/illustration-about-me-desktop.png), url(../images/desktop-images/about-me-line.jpg);
     background-repeat: no-repeat;
     background-position: 100% 11%, 50% 51%;
     position: relative;
