@@ -44,6 +44,12 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Garvin Chimone Personal Portfoilo](https://chimoneg27.github.io/Personal-Portfolio/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
@@ -87,9 +93,9 @@ git clone https://github.com/Chimoneg27/Personal-Portfolio.git
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[Add a project cards section]**
-- [ ] **[Add a contact form section]**
-- [ ] **[Add an about me section showing my core skills]**
+- [ ] **[Project cards loaded dynamically]**
+- [ ] **[Contact form validation with javascript]**
+- [ ] **[Project cards with popups]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
