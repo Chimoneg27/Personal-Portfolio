@@ -203,7 +203,9 @@
     height: 24rem;
     padding: 4rem 0.5rem;
     position: relative;
-    background-image: url(../images/desktop-images/ImgPlaceholdertwo.png);
+    background-image: url(../images/desktop-images/ImgPlaceholderfour.png);
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 
   .cards h4 {
@@ -298,7 +300,7 @@
   }
 
   .cards:nth-child(1):hover {
-    background-image: url(/images/desktop-images/ImgPlaceholderhover.png);
+    background-image: url(../images/desktop-images/ImgPlaceholderhover.png);
     background-repeat: no-repeat;
     background-size: contain;
     cursor: pointer;
