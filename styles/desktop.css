@@ -77,7 +77,7 @@
     padding: 13rem 1rem;
     display: flex;
     width: 100%;
-    background-image: url(/images/desktop-images/Illustration-headerDesktop-headline-img.png);
+    background-image: url(../images/desktop-images/Illustration-headerDesktop-headline-img.png);
     background-repeat: no-repeat;
     background-position: 100% 10%;
   }
@@ -203,7 +203,7 @@
     height: 24rem;
     padding: 4rem 0.5rem;
     position: relative;
-    background-image: url(/images/desktop-images/Img\ Placeholdertwo.png);
+    background-image: url(../images/desktop-images/ImgPlaceholdertwo.png);
   }
 
   .cards h4 {
@@ -298,7 +298,7 @@
   }
 
   .cards:nth-child(1):hover {
-    background-image: url(/images/desktop-images/Img\ Placeholderhover.png);
+    background-image: url(/images/desktop-images/ImgPlaceholderhover.png);
     background-repeat: no-repeat;
     background-size: contain;
     cursor: pointer;
@@ -317,7 +317,7 @@
   }
 
   .about-me {
-    background-image: url(/images/desktop-images/illustration-about\ me\ desktop.png), url(/images/desktop-images/about-me-line.jpg);
+    background-image: url(../images/desktop-images/illustration-about.jpg), url(../images/desktop-images/about-me-line.jpg);
     background-repeat: no-repeat;
     background-position: 100% 11%, 50% 51%;
     position: relative;
