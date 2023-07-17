@@ -45,6 +45,32 @@
 
   nav h2 {
     margin-left: 4rem;
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+
+    50% {
+      transform: scale(1.2);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  form button {
+    margin-left: 0;
+    margin-top: 0.5rem;
+  }
+
+  button:active {
+    transition: 0.6s;
+    background-color: var(--white);
+    color: orange;
   }
 
   .headline {
@@ -222,11 +248,6 @@
     padding-top: 7rem;
   }
 
-  form button {
-    margin-left: 0;
-    margin-top: 0.5rem;
-  }
-
   .cards button {
     position: absolute;
     bottom: 0;
@@ -237,6 +258,8 @@
     border: 3px solid rgb(35, 35, 219);
     width: none;
     cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s;
   }
 
   .intro button {
@@ -365,11 +388,11 @@
     padding: 2rem 1rem;
   }
 
-  input[type=text] {
+  input[type='text'] {
     padding: 1.25rem;
   }
 
-  input[type="email"] {
+  input[type='email'] {
     padding: 1.25rem;
   }
 }
