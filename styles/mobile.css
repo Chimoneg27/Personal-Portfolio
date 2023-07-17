@@ -147,7 +147,7 @@ button:active {
   background-color: var(--portfolio-black);
   width: 100%;
   padding: 8rem 1rem;
-  background-image: url(/images/Illustrationheadline-bgi-mobile.png);
+  background-image: url(../images/Illustrationheadline-bgi-mobile.png);
   background-repeat: no-repeat;
   background-position: 100% 120%;
 }
@@ -299,7 +299,7 @@ form button:hover {
 .cards {
   width: 20.375rem;
   padding: 3.25rem 0.75rem;
-  background-image: url(/images/Img\ cards.png);
+  background-image: url(../images/Imgcards.png);
   background-repeat: no-repeat;
   position: relative;
 }
@@ -355,7 +355,7 @@ form button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(/images/illustration-about-me-mobile.png);
+  background-image: url(../images/illustration-about-me-mobile.png);
   background-repeat: no-repeat;
   background-position: 100% 25%;
 }
