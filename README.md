@@ -5,6 +5,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+  - [🎥 Loom Video](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -47,6 +48,12 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Garvin Chimone Personal Portfoilo](https://chimoneg27.github.io/Personal-Portfolio/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🎥 Loom Video <a name="live-demo"></a>
+
+- [Garvin Chimone Personal Portfoilo Outline Video](https://www.loom.com/share/7e58c8a0f17a4fffbc1740ec50943ba1)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
