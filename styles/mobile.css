@@ -78,6 +78,18 @@ header {
   z-index: 11;
 }
 
+.burger-menu.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.burger-menu.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.burger-menu.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
 form button {
   border: none;
   font-size: 1rem;
