@@ -110,6 +110,15 @@ header {
   line-height: 2.75rem;
 }
 
+.nav-link {
+  border-bottom: 1px solid var(--li-grey);
+  padding-bottom: 0.25rem;
+}
+
+.mobile-nav.active {
+  left: 0;
+}
+
 form button {
   border: none;
   font-size: 1rem;
