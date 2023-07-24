@@ -256,7 +256,6 @@
 
   .cards:hover {
     border: 3px solid rgb(35, 35, 219);
-    width: none;
     cursor: pointer;
     transform: scale(1.1);
     transition: 0.5s;
