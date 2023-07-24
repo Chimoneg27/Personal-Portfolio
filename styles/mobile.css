@@ -78,6 +78,48 @@ header {
   z-index: 11;
 }
 
+.burger-menu.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.burger-menu.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.burger-menu.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.mobile-nav {
+  list-style: none;
+  position: fixed;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  padding: 4rem 1.75rem;
+  gap: 2rem;
+  color: var(--white);
+  font-size: 2rem;
+  font-family: 'Inter', 'Times New Roman', Times, serif;
+  font-weight: 700;
+  background-color: var(--menu-grey);
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  transition: 0.8s ease;
+  line-height: 2.75rem;
+  top: 0;
+}
+
+.nav-link {
+  border-bottom: 1px solid var(--li-grey);
+  padding-bottom: 0.25rem;
+}
+
+.mobile-nav.active {
+  left: 0;
+}
+
 form button {
   border: none;
   font-size: 1rem;
