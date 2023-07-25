@@ -571,6 +571,10 @@ form textarea::placeholder {
   font-size: 1rem;
 }
 
+#error-text {
+  display: none;
+}
+
 footer {
   width: 100%;
   display: flex;
