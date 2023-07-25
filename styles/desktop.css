@@ -369,6 +369,7 @@
     flex-direction: row;
     width: 100%;
     justify-content: center;
+    position: relative;
   }
 
   .form-itro {
@@ -393,6 +394,13 @@
 
   input[type='email'] {
     padding: 1.25rem;
+  }
+
+  #error-text {
+    display: none;
+    position: absolute;
+    bottom: -1%;
+    left: 3.25%;
   }
 }
 
