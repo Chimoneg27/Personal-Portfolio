@@ -415,3 +415,7 @@
     grid-template-columns: repeat(3, 20rem);
   }
 }
+
+#error-text {
+  display: none;
+}
