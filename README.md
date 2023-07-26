@@ -9,10 +9,6 @@
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -33,7 +29,7 @@
   <ul>
     <li>CSS</li>
     <li>HTML</li>
-    <li>My PC</li>
+    <li>Javascript</li>
   </ul>
 </details>
 
@@ -42,6 +38,9 @@
 - **[The Navigation bar]**
 - **[The hamburger button]**
 - **[The headline section with my social links]**
+- **[Project cards section]**
+- **[About section with featured skills and technologies]**
+- **[Contact form with javascript validation and local storage]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -86,8 +85,6 @@ git clone https://github.com/Chimoneg27/Personal-Portfolio.git
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Author1**
 
 - GitHub: [@Chimoneg27](https://github.com/Chimoneg27)
@@ -98,10 +95,8 @@ git clone https://github.com/Chimoneg27/Personal-Portfolio.git
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
 - [ ] **[Project cards loaded dynamically]**
-- [ ] **[Contact form validation with javascript]**
+- [ ] **[Potential redesign]**
 - [ ] **[Project cards with popups]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -122,7 +117,7 @@ If you like this project checkout my other repositories on my github profile
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank the microverse staff for doing their best to equip us with the necesarry skills to start our software engineering carreers
+I would like to thank the microverse staff for doing their best to equip us with the necesarry skills to start our software engineering carreers. I would also like to thank my coding partners who have helped me along the way.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
