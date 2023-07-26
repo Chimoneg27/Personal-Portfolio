@@ -22,3 +22,11 @@ if (savedInfo) {
   fullName.value = savedInfo.name;
   email.value = savedInfo.email;
 }
+
+function saveFormInfo() {
+  const myFormInfo = {
+    name: fullName.value,
+    email: email.value,
+  };
+  localStorage.setItem('myFormInfo', JSON.stringify(myFormInfo));
+}
