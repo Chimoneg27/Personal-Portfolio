@@ -5,7 +5,7 @@ const fullName = document.querySelector('#fullName');
 const email = document.querySelector('#email-input');
 const textarea = document.getElementById('textArea');
 
-form.addEventListener('submit', (event) => {
+form.addEventListener('submit', event => {
   if (emailInput.value === emailInput.value.toLowerCase()) {
     return true;
   }
@@ -16,3 +16,9 @@ form.addEventListener('submit', (event) => {
 
 document.getElementById('error-text').style.color = 'Red';
 document.getElementById('error-text').style.fontSize = '120%';
+
+const savedInfo = JSON.parse(localStorage.getItem('myFormInfo'));
+if (savedInfo) {
+  fullName.value = savedInfo.name;
+  email.value = savedInfo.email;
+}
