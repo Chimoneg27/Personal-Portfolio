@@ -5,7 +5,7 @@ const fullName = document.querySelector('#fullName');
 const email = document.querySelector('#email-input');
 const textarea = document.getElementById('textArea');
 
-form.addEventListener('submit', event => {
+form.addEventListener('submit', (event) => {
   if (emailInput.value === emailInput.value.toLowerCase()) {
     return true;
   }
