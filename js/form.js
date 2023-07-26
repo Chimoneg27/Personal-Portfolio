@@ -30,3 +30,12 @@ function saveFormInfo() {
   };
   localStorage.setItem('myFormInfo', JSON.stringify(myFormInfo));
 }
+
+if (localStorage.getItem('textareaData')) {
+  textarea.value = localStorage.getItem('textareaData');
+}
+
+textarea.addEventListener('input', () => {
+  const data = textarea.value;
+  localStorage.setItem('textareaData', data);
+});
