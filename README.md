@@ -89,8 +89,6 @@ git clone https://github.com/Chimoneg27/Personal-Portfolio.git
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Author1**
 
 - GitHub: [@Chimoneg27](https://github.com/Chimoneg27)
@@ -100,8 +98,6 @@ git clone https://github.com/Chimoneg27/Personal-Portfolio.git
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **[Project cards loaded dynamically]**
 - [ ] **[Potential redesign]**
