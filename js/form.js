@@ -39,3 +39,6 @@ textarea.addEventListener('input', () => {
   const data = textarea.value;
   localStorage.setItem('textareaData', data);
 });
+
+fullName.addEventListener('input', saveFormInfo);
+email.addEventListener('input', saveFormInfo);
