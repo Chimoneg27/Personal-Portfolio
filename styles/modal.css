@@ -29,3 +29,19 @@
 .popup-buttons {
   margin-top: 20px;
 }
+
+.popup-buttons {
+    margin-top: 20px;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close-popup-button:hover {
+    cursor: pointer;
+  }
