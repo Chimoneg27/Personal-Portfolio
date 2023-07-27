@@ -66,3 +66,27 @@ const cardsData = [
       imageDesktop: "images/desktop-images/pop up desktop.png"
     }
   ];
+
+  function generateCardsAndPopups() {
+    const cardsContainer = document.querySelector(".project-cards");
+    const popupsContainer = document.getElementById('popups-container');
+
+    cardsData.forEach((card, index) => {
+      const cardElement = document.createElement('div');
+      cardElement.className = 'cards';
+  
+      cardElement.innerHTML = `
+        <h4>${card.name}</h4>
+        <p>${card.description}</p>
+  
+        <ul>
+          <li>${card.technologies[0]}</li>
+          <li>${card.technologies[1]}</li>
+          <li>${card.technologies[2]}</li>
+        </ul>
+  
+        <button class="open-popup-button" data-index="${index}">Open Popup</button>
+      `;
+
+      cardsContainer.appendChild(cardElement);
+  })}
