@@ -110,7 +110,7 @@ function generateCardsAndPopups() {
 
     const popupElement = document.createElement('div');
     popupElement.className = 'popup';
-    
+
     popupElement.innerHTML = `
       <div class="popup-content">
         <div class="modal-header">
@@ -153,5 +153,13 @@ Array.from(openPopupButtons).forEach(button => {
     const index = button.getAttribute('data-index');
     const popup = popupsContainer.children[index];
     popup.style.display = 'flex';
+  });
+});
+
+const closePopupButtons = document.getElementsByClassName('close-popup-button');
+Array.from(closePopupButtons).forEach(button => {
+  button.addEventListener('click', () => {
+    const popup = button.closest('.popup');
+    popup.style.display = 'none';
   });
 });
