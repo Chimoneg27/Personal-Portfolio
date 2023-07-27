@@ -142,5 +142,16 @@ function generateCardsAndPopups() {
         </div>
       </div>
     `;
+
+    popupsContainer.appendChild(popupElement);
   });
 }
+
+const openPopupButtons = document.getElementsByClassName('open-popup-button');
+Array.from(openPopupButtons).forEach(button => {
+  button.addEventListener('click', () => {
+    const index = button.getAttribute('data-index');
+    const popup = popupsContainer.children[index];
+    popup.style.display = 'flex';
+  });
+});
