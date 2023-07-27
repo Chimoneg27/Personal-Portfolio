@@ -51,7 +51,7 @@
 @media (min-width: 769px) {
   .popup-content {
     width: 90%;
-    height: 45rem;
+    height: 35rem;
     display: flex;
     flex-direction: column;
   }

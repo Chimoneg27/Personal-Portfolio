@@ -390,6 +390,10 @@ form button:hover {
   font-weight: 700;
 }
 
+.cards:last-child {
+  display: none;
+}
+
 .modal-img-two {
   display: none;
 }

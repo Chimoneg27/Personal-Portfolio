@@ -174,7 +174,7 @@
   }
 
   .yoga-post h3 {
-    width: 60%;
+    width: 100%;
     font-size: 2.5rem;
     margin-bottom: 2rem;
   }
@@ -206,6 +206,10 @@
     background-image: url(../images/desktop-images/ImgPlaceholderfour.png);
     background-repeat: no-repeat;
     background-size: contain;
+  }
+
+  .cards:last-child {
+    display: none;
   }
 
   .cards h4 {

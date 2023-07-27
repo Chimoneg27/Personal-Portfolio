@@ -80,11 +80,23 @@ const cardsData = [
     sourceLink: 'https://github.com/example/card2',
     imageDesktop: 'images/desktop-images/pop-up-desktop.png',
   },
+  {
+    name: 'Multi-Post Stories',
+    description: "A daily selection of privately personalized reads; no accounts or sign-ups required has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    descriptionOneModal: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sstandard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent.",
+    descriptionTwoModal: "    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    featuredImage: 'images/popupmobile.png',
+    technologies: ['HTML', 'Bootstrap', 'Ruby', 'CSS'],
+    liveVersion: 'https://example.com/card2',
+    sourceLink: 'https://github.com/example/card2',
+    imageDesktop: 'images/desktop-images/pop-up-desktop.png',
+  },
 ];
 
 function generateCardsAndPopups() {
   const cardsContainer = document.querySelector('.project-cards');
   const popupsContainer = document.getElementById('popups-container');
+  const yogaContainer = document.querySelector('.yoga-post');
 
   cardsData.forEach((card, index) => {
     const cardElement = document.createElement('div');
@@ -100,10 +112,30 @@ function generateCardsAndPopups() {
           <li>${card.technologies[2]}</li>
         </ul>
   
-        <button class="open-popup-button" data-index="${index}">Open Popup</button>
+        <button class="open-popup-button" data-index="${index}">See Project</button>
       `;
 
     cardsContainer.appendChild(cardElement);
+
+    yogaContainer.innerHTML = `
+    <img src="images/Img Placeholderyoga-mobile" alt="yoga-mobile" class="yoga-one">
+    <img src="images/desktop-images/Img Placeholderyoga-desktop.png" alt="yoga-mobile" class="yoga-two">
+
+    <div class="yoga-info">
+        <h3>${card.name}</h3>
+
+        <p>${card.description}</p>
+
+        <ul>
+        <li>${card.technologies[3]}</li>
+        <li>${card.technologies[1]}</li>
+        <li>${card.technologies[2]}</li>
+        <li>${card.technologies[0]}</li>
+        </ul>
+
+        <button class="open-popup-button" data-index="${index}">See Project</button>
+    </div>
+    `;
 
     const popupElement = document.createElement('div');
     popupElement.className = 'popup';
