@@ -209,23 +209,15 @@
   }
 
   .cards h4 {
-    display: none;
+    display: block;
+  }
+
+  .cards:hover h4 {
+    visibility: hidden;
   }
 
   .cards ul {
     margin-top: 2rem;
-  }
-
-  .cards span {
-    font-size: 2rem;
-    font-family: 'Crete Round', 'Times New Roman', Times, serif;
-    margin-bottom: 1rem;
-    color: var(--white);
-    font-weight: 400;
-    margin-left: -0.25rem;
-    line-height: 2.75rem;
-    display: block;
-    width: 100%;
   }
 
   .modal-img-two {
@@ -237,24 +229,21 @@
     padding: 1rem;
   }
 
-  .third-p {
-    margin-top: 3.5rem;
-  }
+  .modal-text {
+    width: 45%;
+    padding: 1rem;
+}
 
-  .third-span {
-    margin-top: -2.85rem;
-  }
+.modal-img-one {
+    display: none;
+}
 
-  .thid-span-p {
-    margin-top: 3.5rem;
-  }
+.modal-desc {
+    display: flex;
+}
 
   .cards p {
     margin-right: 2rem;
-  }
-
-  .cards:nth-child(3) {
-    padding-top: 7rem;
   }
 
   .cards button {
@@ -269,6 +258,29 @@
     transform: scale(1.1);
     transition: 0.5s;
   }
+
+  .popup-content-1:nth-child(1) {
+    margin-bottom: 3rem;
+    font-size: 1rem;
+    line-height: 1.875rem;
+}
+
+.popup-content-1:nth-child(2) {
+    display: block;
+    font-size: 1rem;
+    line-height: 1.875rem;
+}
+
+  .button-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.25rem;
+    margin-left: 0rem;
+    gap: 1rem;
+    margin-top: 2rem;
+}
 
   .intro button {
     margin-top: 2rem;

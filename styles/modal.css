@@ -26,6 +26,12 @@
   overflow-y: scroll;
 }
 
+.popup-content a {
+  text-decoration: none;
+  color: white;
+  font-family: inherit;
+}
+
 .popup-buttons {
   margin-top: 20px;
 }
