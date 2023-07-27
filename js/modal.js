@@ -163,3 +163,5 @@ Array.from(closePopupButtons).forEach(button => {
     popup.style.display = 'none';
   });
 });
+
+generateCardsAndPopups();
