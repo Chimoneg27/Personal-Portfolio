@@ -390,6 +390,27 @@ form button:hover {
   font-weight: 700;
 }
 
+.modalTitle-line-1 {
+  display: none;
+}
+
+.modal-img-two {
+  display: none;
+}
+
+.modal-header span {
+  display: none;
+}
+
+.modal-header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 0.25rem;
+  margin-bottom: 1.25rem;
+}
+
 .about-me {
   width: 100%;
   padding: 7rem 0 4rem 0;
