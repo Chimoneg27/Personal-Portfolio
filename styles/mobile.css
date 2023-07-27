@@ -428,6 +428,25 @@ form button:hover {
     font-family: "Poppins", 'Times New Roman', Times, serif;
 }
 
+.modal-title {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-title h2 {
+  font-family: "Roboto", 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  color: var(--navy-blue);
+}
+
+.modal-title h4 {
+  font-size: 2rem;
+  color: var(--menu-grey);
+  font-weight: 400;
+}
+
 .about-me {
   width: 100%;
   padding: 7rem 0 4rem 0;
