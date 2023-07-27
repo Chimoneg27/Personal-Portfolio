@@ -144,7 +144,7 @@ function generateCardsAndPopups() {
   });
 
   const openPopupButtons = document.getElementsByClassName('open-popup-button');
-  Array.from(openPopupButtons).forEach(button => {
+  Array.from(openPopupButtons).forEach((button) => {
     button.addEventListener('click', () => {
       const index = button.getAttribute('data-index');
       const popup = popupsContainer.children[index];
@@ -153,12 +153,12 @@ function generateCardsAndPopups() {
   });
 
   const closePopupButtons = document.getElementsByClassName('close-popup-button');
-  Array.from(closePopupButtons).forEach(button => {
+  Array.from(closePopupButtons).forEach((button) => {
     button.addEventListener('click', () => {
       const popup = button.closest('.popup');
       popup.style.display = 'none';
     });
-  });  
+  });
 }
 
 generateCardsAndPopups();

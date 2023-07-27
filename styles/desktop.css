@@ -224,23 +224,19 @@
     display: block;
     width: 55%;
   }
+
   .modal-text {
     width: 45%;
     padding: 1rem;
   }
 
-  .modal-text {
-    width: 45%;
-    padding: 1rem;
-}
-
-.modal-img-one {
+  .modal-img-one {
     display: none;
-}
+  }
 
-.modal-desc {
+  .modal-desc {
     display: flex;
-}
+  }
 
   .cards p {
     margin-right: 2rem;
@@ -263,13 +259,13 @@
     margin-bottom: 3rem;
     font-size: 1rem;
     line-height: 1.875rem;
-}
+  }
 
-.popup-content-1:nth-child(2) {
+  .popup-content-1:nth-child(2) {
     display: block;
     font-size: 1rem;
     line-height: 1.875rem;
-}
+  }
 
   .button-container {
     display: flex;
@@ -277,10 +273,10 @@
     align-items: center;
     justify-content: flex-start;
     padding: 0.25rem;
-    margin-left: 0rem;
+    margin-left: 0;
     gap: 1rem;
     margin-top: 2rem;
-}
+  }
 
   .intro button {
     margin-top: 2rem;
@@ -339,7 +335,8 @@
   }
 
   .about-me {
-    background-image: url(../images/desktop-images/illustrationabout.png),
+    background-image:
+      url(../images/desktop-images/illustrationabout.png),
       url(../images/desktop-images/about-me-line.jpg);
     background-repeat: no-repeat;
     background-position: 100% 11%, 50% 51%;

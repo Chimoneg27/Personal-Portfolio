@@ -36,10 +36,6 @@
   margin-top: 20px;
 }
 
-.popup-buttons {
-  margin-top: 20px;
-}
-
 .close-button {
   position: absolute;
   top: 10px;
@@ -55,14 +51,13 @@
 @media (min-width: 769px) {
   .popup-content {
     width: 90%;
-    max-width: auto;
     height: 45rem;
     display: flex;
     flex-direction: column;
   }
+
   .modal-img-two {
     display: block;
     width: 55%;
   }
 }
-

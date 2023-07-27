@@ -390,10 +390,6 @@ form button:hover {
   font-weight: 700;
 }
 
-.modalTitle-line-1 {
-  display: none;
-}
-
 .modal-img-two {
   display: none;
 }
@@ -495,7 +491,7 @@ form button:hover {
   color: var(--white);
   font-size: 1rem;
   font-weight: 700;
-  font-family: "Inter",'Times New Roman', Times, serif;
+  font-family: "Inter", 'Times New Roman', Times, serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -510,7 +506,7 @@ form button:hover {
   color: var(--white);
   font-size: 1rem;
   font-weight: 700;
-  font-family: "Inter",'Times New Roman', Times, serif;
+  font-family: "Inter", 'Times New Roman', Times, serif;
   display: flex;
   align-items: center;
   justify-content: center;
