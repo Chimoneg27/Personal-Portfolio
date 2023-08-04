@@ -115,7 +115,7 @@ function generateCardsAndPopups() {
         <button class="open-popup-button" data-index="${index}">See Project</button>
       `;
 
-    cardsContainer.appendChild(cardElement);
+    cardContainer.appendChild(cardElement);
 
     yogaContainer.innerHTML = `
     <img src="images/Img Placeholderyoga-mobile" alt="yoga-mobile" class="yoga-one">
@@ -177,16 +177,16 @@ function generateCardsAndPopups() {
 
   const openPopupButtons = document.getElementsByClassName('open-popup-button');
   Array.from(openPopupButtons).forEach((button) => {
-    button.addEventListener('click', () => {
+    button.addEventListener('hover', () => {
       const index = button.getAttribute('data-index');
       const popup = popupsContainer.children[index];
-      popup.style.display = 'flex';
+      popup.style.display = 'grid';
     });
   });
 
   const closePopupButtons = document.getElementsByClassName('close-popup-button');
   Array.from(closePopupButtons).forEach((button) => {
-    button.addEventListener('click', () => {
+    button.addEventListener('hover', () => {
       const popup = button.closest('.popup');
       popup.style.display = 'none';
     });
