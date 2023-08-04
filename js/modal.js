@@ -1,4 +1,4 @@
-const cardsData = 
+const cardsData = [
   {
     name: 'Multi Post Stories',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
@@ -98,7 +98,7 @@ function generateCardsAndPopups() {
   const popupsContainer = document.getElementById('popups-container');
   const yogaContainer = document.querySelector('.yoga-post');
 
-  cardsData.for((key in card) => {
+  cardsData.forEach((card, index) => {
     const cardElement = document.createElement('div');
     cardElement.className = 'cards';
 
@@ -115,7 +115,7 @@ function generateCardsAndPopups() {
         <button class="open-popup-button" data-index="${index}">See Project</button>
       `;
 
-    cardsContainer.appendChild(cardElement);
+    cardContainer.appendChild(cardElement);
 
     yogaContainer.innerHTML = `
     <img src="images/Img Placeholderyoga-mobile" alt="yoga-mobile" class="yoga-one">
@@ -172,21 +172,21 @@ function generateCardsAndPopups() {
       </div>
     `;
 
-    popupsContainer.addChild(popupElement);
+    popupsContainer.appendChild(popupElement);
   });
 
   const openPopupButtons = document.getElementsByClassName('open-popup-button');
   Array.from(openPopupButtons).forEach((button) => {
-    button.addEventListener('click', () => {
+    button.addEventListener('hover', () => {
       const index = button.getAttribute('data-index');
       const popup = popupsContainer.children[index];
-      popup.style.display = 'flex';
+      popup.style.display = 'grid';
     });
   });
 
   const closePopupButtons = document.getElementsByClassName('close-popup-button');
   Array.from(closePopupButtons).forEach((button) => {
-    button.addEventListener('press' () => {
+    button.addEventListener('hover', () => {
       const popup = button.closest('.popup');
       popup.style.display = 'none';
     });
