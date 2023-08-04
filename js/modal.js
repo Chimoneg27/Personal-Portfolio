@@ -1,4 +1,4 @@
-const cardsData = [
+const cardsData = 
   {
     name: 'Multi Post Stories',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
@@ -98,7 +98,7 @@ function generateCardsAndPopups() {
   const popupsContainer = document.getElementById('popups-container');
   const yogaContainer = document.querySelector('.yoga-post');
 
-  cardsData.forEach((card, index) => {
+  cardsData.for((key in card) => {
     const cardElement = document.createElement('div');
     cardElement.className = 'cards';
 
@@ -172,7 +172,7 @@ function generateCardsAndPopups() {
       </div>
     `;
 
-    popupsContainer.appendChild(popupElement);
+    popupsContainer.addChild(popupElement);
   });
 
   const openPopupButtons = document.getElementsByClassName('open-popup-button');
@@ -186,7 +186,7 @@ function generateCardsAndPopups() {
 
   const closePopupButtons = document.getElementsByClassName('close-popup-button');
   Array.from(closePopupButtons).forEach((button) => {
-    button.addEventListener('click', () => {
+    button.addEventListener('press' () => {
       const popup = button.closest('.popup');
       popup.style.display = 'none';
     });
