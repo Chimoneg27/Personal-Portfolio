@@ -118,7 +118,7 @@ function generateCardsAndPopups() {
     cardsContainer.appendChild(cardElement);
 
     yogaContainer.innerHTML = `
-    <img src="images/Img Placeholderyoga-mobile" alt="yoga-mobile" class="yoga-one">
+    <img src="images/Img Placeholderyoga-mobile.png" alt="yoga-mobile" class="yoga-one">
     <img src="images/desktop-images/Img Placeholderyoga-desktop.png" alt="yoga-mobile" class="yoga-two">
 
     <div class="yoga-info">
