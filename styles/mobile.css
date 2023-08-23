@@ -346,6 +346,10 @@ form button:hover {
   position: relative;
 }
 
+.cards:nth-child(1) {
+  background-image: url(../images/F1-cover-crop.jpg);
+}
+
 .cards h4 {
   font-size: 2rem;
   font-family: 'Crete Round', 'Times New Roman', Times, serif;

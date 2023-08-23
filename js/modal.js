@@ -1,13 +1,13 @@
 const cardsData = [
   {
-    name: 'Multi Post Stories',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
-    descriptionOneModal: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sstandard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent.",
+    name: 'Capstone Project 1',
+    description: 'This is my first capstone project, where I was tasked with building a conference page.',
+    descriptionOneModal: 'This is my first capstone project, where I was tasked with building a conference page, which we had to tailor to a topic of our choosing. In my case I chose the formula 1 Monaco Gran prix',
     descriptionTwoModal: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    featuredImage: 'images/popupmobile.png',
-    technologies: ['HTML', 'Bootstrap', 'Ruby'],
+    featuredImage: 'images/F1-popup.jpg',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
     liveVersion: 'https://chimoneg27.github.io/Personal-Portfolio/',
-    sourceLink: 'https://github.com/example/card1',
+    sourceLink: 'https://github.com/Chimoneg27/Personal-Portfolio',
     imageDesktop: 'images/desktop-images/pop-up-desktop.png',
   },
   {
@@ -148,9 +148,9 @@ function generateCardsAndPopups() {
             <h4 class="close-popup-button">&times;</h4>
           </div>
           <ul>
-            <li>HTML</li>
-            <li>Bootstrap</li>
-            <li>Ruby on Rails</li>
+            <li>${card.technologies[0]}</li>
+            <li>${card.technologies[1]}</li>
+            <li>${card.technologies[2]}</li>
           </ul>
         </div>
         <div class="modal-desc">
