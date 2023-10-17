@@ -1,95 +1,95 @@
 const cardsData = [
   {
     name: 'Capstone Project 1',
-    description: 'This is my first capstone project, where I was tasked with building a conference page.',
-    descriptionOneModal: 'This is my first capstone project, where I was tasked with building a conference page, which we had to tailor to a topic of our choosing. In my case I chose the formula 1 Monaco Gran prix',
-    descriptionTwoModal: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    featuredImage: 'images/F1-popup.jpg',
+    description: 'This is my first capstone project, where I was tasked with building a conference page, inspired by the formula 1 Monaco Gran prix. The page is fully responsive and was built using HTML, CSS and JavaScript.',
+    descriptionOneModal: 'This is my first capstone project, where I was tasked with building a conference page, which we had to tailor to a topic of our choosing. In my case I chose the formula 1 Monaco Gran prix. It features racer cards, sponsors for the footer and a hamburger menu for the mobile version .The page is fully responsive and was built using HTML, CSS and JavaScript.',
+    descriptionTwoModal: '',
+    featuredImage: 'images/project-capstonever1.png',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    liveVersion: 'https://chimoneg27.github.io/Personal-Portfolio/',
-    sourceLink: 'https://github.com/Chimoneg27/Personal-Portfolio',
-    imageDesktop: 'images/desktop-images/pop-up-desktop.png',
+    liveVersion: 'https://chimoneg27.github.io/Capstone-One/',
+    sourceLink: 'https://github.com/Chimoneg27/Capstone-One',
+    imageDesktop: 'images/desktop-images/project-capstonever1-desktop.png',
   },
   {
-    name: 'Multi Post Stories',
+    name: 'Pokemon Gallery',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+      'This is a gallery displaying Kento region pokemon. The user can click on each pokemon to see more details about them. The website was built using HTML, CSS and JavaScript.',
     descriptionOneModal:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sstandard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent.",
+      'For this is my first capstone group project where we were taked with building a website that interacts with an API of our choosing. In my case I chose the pokemon API. The website displays the first 151 pokemon from the Kento region. The user can click on each pokemon to see more details about them.',
     descriptionTwoModal:
-      "    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    featuredImage: 'images/popupmobile.png',
-    technologies: ['HTML', 'Bootstrap', 'Ruby'],
-    liveVersion: 'https://chimoneg27.github.io/Personal-Portfolio/',
-    sourceLink: 'https://github.com/example/card2',
-    imageDesktop: 'images/desktop-images/pop-up-desktop.png',
+      '',
+    featuredImage: 'images/copygallery.png',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    liveVersion: 'https://chimoneg27.github.io/Pokemon-Gallery',
+    sourceLink: 'https://github.com/Chimoneg27/Pokemon-Gallery',
+    imageDesktop: 'images/desktop-images/copygallery.png',
   },
   {
-    name: 'Multi Post Stories',
+    name: 'Todo List App',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+      'A simple to do list app to help you track your day to day activities. The app was built using HTML, CSS and JavaScript.',
     descriptionOneModal:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sstandard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent.",
+      'This is a project built with webpack, which is a popular open-source JavaScript module bundler that is widely used in modern web development to package and manage assets, such as JavaScript files, CSS styles, images, and more. It helps developers streamline the process of organizing, optimizing, and serving these assets for web applications.',
     descriptionTwoModal:
-      "    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    featuredImage: 'images/popupmobile.png',
-    technologies: ['HTML', 'Bootstrap', 'Ruby'],
-    liveVersion: 'https://chimoneg27.github.io/Personal-Portfolio/',
-    sourceLink: 'https://github.com/example/card2',
-    imageDesktop: 'images/desktop-images/pop-up-desktop.png',
+      '',
+    featuredImage: 'images/tododesk.png',
+    technologies: ['HTML', 'JavaScript', 'Webpack'],
+    liveVersion: 'https://chimoneg27.github.io/To-Do-List/',
+    sourceLink: 'https://github.com/Chimoneg27/To-Do-List',
+    imageDesktop: 'images/desktop-images/tododesk.png',
   },
   {
-    name: 'Multi Post Stories',
+    name: 'Math Magician',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+      'This is my first single page app built with react. It is a simple calculator that performs basic arithmetic operations. The app was built using HTML, CSS and React.',
     descriptionOneModal:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sstandard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent.",
+      'This single page app is built with React, through the create react app features a working calculator, a home page with a random quote generator that returns a random math quote. This is my first single page app built with react.  It is fully responsive and works across multiple devices. It is built with React and CSS.',
     descriptionTwoModal:
-      "    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    featuredImage: 'images/popupmobile.png',
-    technologies: ['HTML', 'Bootstrap', 'Ruby'],
-    liveVersion: 'https://chimoneg27.github.io/Personal-Portfolio/',
-    sourceLink: 'https://github.com/example/card2',
-    imageDesktop: 'images/desktop-images/pop-up-desktop.png',
+      '',
+    featuredImage: 'images/math.png',
+    technologies: ['HTML', 'React', 'CSS'],
+    liveVersion: 'https://math-magician-site.onrender.com/',
+    sourceLink: 'https://github.com/Chimoneg27/math-magician-2',
+    imageDesktop: 'images/desktop-images/math.png',
   },
   {
-    name: 'Multi Post Stories',
+    name: 'Book Store',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+      'A book store app built with react-redux toolkit. The app features a home page with a list of books and a category filter. The app was built using HTML, CSS and React-Redux toolkit',
     descriptionOneModal:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sstandard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent.",
+      'This is a book store app built with react-redux toolkit. The app features a home page with a list of books and a category filter. The app was built using HTML, CSS and React-Redux toolkit. The user can add and remove books from the store. It is fully responsive and works across multiple devices.',
     descriptionTwoModal:
-      "    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    featuredImage: 'images/popupmobile.png',
-    technologies: ['HTML', 'Bootstrap', 'Ruby'],
-    liveVersion: 'https://chimoneg27.github.io/Personal-Portfolio/',
-    sourceLink: 'https://github.com/example/card2',
-    imageDesktop: 'images/desktop-images/pop-up-desktop.png',
+      '',
+    featuredImage: 'images/bookstore.png',
+    technologies: ['Redux', 'React', 'CSS'],
+    liveVersion: 'https://bookstore-v8gf.onrender.com/',
+    sourceLink: 'https://github.com/Chimoneg27/Bookstore-React',
+    imageDesktop: 'images/desktop-images/bookstore.png',
   },
   {
-    name: 'Multi Post Stories',
+    name: 'Space Travelers Hub',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+      'A single page app built with react-redux toolkit. The app features a home page with a list of rockets and a list of missions.',
     descriptionOneModal:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sstandard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent.",
+      'This is a single page app built with react-redux toolkit and CSS. The app features a home page with a list of rockets and a list of missions. The user can reserve a rocket and cancel the reservation. The user can also join a mission and cancel the reservation. It is fully responsive and works across multiple devices.',
     descriptionTwoModal:
-      "    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    featuredImage: 'images/popupmobile.png',
-    technologies: ['HTML', 'Bootstrap', 'Ruby'],
-    liveVersion: 'https://chimoneg27.github.io/Personal-Portfolio/',
-    sourceLink: 'https://github.com/example/card2',
-    imageDesktop: 'images/desktop-images/pop-up-desktop.png',
+      '',
+    featuredImage: 'images/spaceTraveler.png',
+    technologies: ['React', 'Redux', 'CSS'],
+    liveVersion: 'https://space-travelers-hub-bvt6.onrender.com/',
+    sourceLink: 'https://github.com/Chimoneg27/Travelers-Space-Hub',
+    imageDesktop: 'images/desktop-images/spaceTraveler.png',
   },
   {
-    name: 'Multi-Post Stories',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    descriptionOneModal: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sstandard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent.",
-    descriptionTwoModal: "    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    featuredImage: 'images/popupmobile.png',
-    technologies: ['HTML', 'Bootstrap', 'Ruby', 'CSS'],
+    name: 'In The Air',
+    description: 'An app used to check the quality of air in a given city. The app interacts with the openweather API to fetch air pollution data. The app was built using React, CSS and the redux-toolkit.',
+    descriptionOneModal: 'This app makes use of the openweather API to fetch air pollution data. The user can search for a city and the app will return the air quality index for that city. The app was built using React, CSS and the redux-toolkit. It is fully responsive and works across multiple devices.',
+    descriptionTwoModal: '',
+    featuredImage: 'images/airmobile.png',
+    technologies: ['Redux', 'Bootstrap', 'React', 'CSS'],
     liveVersion: 'https://example.com/card2',
     sourceLink: 'https://github.com/example/card2',
-    imageDesktop: 'images/desktop-images/pop-up-desktop.png',
+    imageDesktop: 'images/desktop-images/air.png',
   },
 ];
 
@@ -118,8 +118,8 @@ function generateCardsAndPopups() {
     cardsContainer.appendChild(cardElement);
 
     yogaContainer.innerHTML = `
-    <img src="images/Img Placeholderyoga-mobile.png" alt="yoga-mobile" class="yoga-one">
-    <img src="images/desktop-images/Img Placeholderyoga-desktop.png" alt="yoga-mobile" class="yoga-two">
+    <img src="images/airmobile.png" alt="yoga-mobile" class="yoga-one">
+    <img src="images/desktop-images/air.png" alt="yoga-mobile" class="yoga-two">
 
     <div class="yoga-info">
         <h3>${card.name}</h3>
@@ -165,7 +165,7 @@ function generateCardsAndPopups() {
             </p>
             <div class="button-container">
               <button><a href="${card.liveVersion}">See live</a><img src="images/desktop-images/popup.svg" alt="live-icon"></button>
-              <button>See source <img src="images/desktop-images/Icon-GitHub.svg" alt="github-icon"></button>
+              <button><a href="${card.sourceLink}">See source</a> <img src="images/desktop-images/Icon-GitHub.svg" alt="github-icon"></button>
             </div>
           </div>
         </div>
