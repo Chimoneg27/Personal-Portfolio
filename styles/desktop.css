@@ -320,9 +320,9 @@
   }
 
   .cards:nth-child(1):hover {
-    background-image: url(../images/desktop-images/ImgPlaceholderhover.png);
+    background-image: url(../images/desktop-images/landoCard.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     cursor: pointer;
   }
 

@@ -341,13 +341,38 @@ form button:hover {
 .cards {
   width: 20.375rem;
   padding: 3.25rem 0.75rem;
-  background-image: url(../images/Imgcards.png);
   background-repeat: no-repeat;
   position: relative;
 }
 
 .cards:nth-child(1) {
-  background-image: url(../images/F1-cover-crop.jpg);
+  background-image: url(../images/landoCard.jpg);
+  background-size: cover;
+}
+
+.cards:nth-child(2) {
+  background-image: url(../images/poke1ne.jpg);
+  background-size: cover;
+}
+
+.cards:nth-child(3) {
+  background-image: url(../images/todo.jpg);
+  background-size: cover;
+}
+
+.cards:nth-child(4) {
+  background-image: url(../images/calculator.jpg);
+  background-size: cover;
+}
+
+.cards:nth-child(5) {
+  background-image: url(../images/bookstore.jpg);
+  background-size: cover;
+}
+
+.cards:nth-child(6) {
+  background-image: url(../images/space.jpg);
+  background-size: cover;
 }
 
 .cards h4 {
