@@ -87,8 +87,8 @@ const cardsData = [
     descriptionTwoModal: '',
     featuredImage: 'images/airmobile.png',
     technologies: ['Redux', 'Bootstrap', 'React', 'CSS'],
-    liveVersion: 'https://example.com/card2',
-    sourceLink: 'https://github.com/example/card2',
+    liveVersion: 'https://in-the-air.onrender.com/',
+    sourceLink: 'https://github.com/Chimoneg27/in-the-air',
     imageDesktop: 'images/desktop-images/air.png',
   },
 ];
