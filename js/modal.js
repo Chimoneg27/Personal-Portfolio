@@ -1,16 +1,5 @@
 const cardsData = [
   {
-    name: 'Capstone Project 1',
-    description: 'This is my first capstone project, where I was tasked with building a conference page, inspired by the formula 1 Monaco Gran prix. The page is fully responsive and was built using HTML, CSS and JavaScript.',
-    descriptionOneModal: 'This is my first capstone project, where I was tasked with building a conference page, which we had to tailor to a topic of our choosing. In my case I chose the formula 1 Monaco Gran prix. It features racer cards, sponsors for the footer and a hamburger menu for the mobile version .The page is fully responsive and was built using HTML, CSS and JavaScript.',
-    descriptionTwoModal: '',
-    featuredImage: 'images/project-capstonever1.png',
-    technologies: ['HTML', 'CSS', 'JavaScript'],
-    liveVersion: 'https://chimoneg27.github.io/Capstone-One/',
-    sourceLink: 'https://github.com/Chimoneg27/Capstone-One',
-    imageDesktop: 'images/desktop-images/project-capstonever1-desktop.png',
-  },
-  {
     name: 'Pokemon Gallery',
     description:
       'This is a gallery displaying Kento region pokemon. The user can click on each pokemon to see more details about them. The website was built using HTML, CSS and JavaScript.',
@@ -23,20 +12,6 @@ const cardsData = [
     liveVersion: 'https://chimoneg27.github.io/Pokemon-Gallery',
     sourceLink: 'https://github.com/Chimoneg27/Pokemon-Gallery',
     imageDesktop: 'images/desktop-images/copygallery.png',
-  },
-  {
-    name: 'Todo List App',
-    description:
-      'A simple to do list app to help you track your day to day activities. The app was built using HTML, CSS and JavaScript.',
-    descriptionOneModal:
-      'This is a project built with webpack, which is a popular open-source JavaScript module bundler that is widely used in modern web development to package and manage assets, such as JavaScript files, CSS styles, images, and more. It helps developers streamline the process of organizing, optimizing, and serving these assets for web applications.',
-    descriptionTwoModal:
-      '',
-    featuredImage: 'images/tododesk.png',
-    technologies: ['HTML', 'JavaScript', 'Webpack'],
-    liveVersion: 'https://chimoneg27.github.io/To-Do-List/',
-    sourceLink: 'https://github.com/Chimoneg27/To-Do-List',
-    imageDesktop: 'images/desktop-images/tododesk.png',
   },
   {
     name: 'Math Magician',
