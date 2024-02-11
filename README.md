@@ -95,7 +95,7 @@ git clone https://github.com/Chimoneg27/Personal-Portfolio.git
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Project cards loaded dynamically]**
+- [ ] **[A whole new portfolio built with React ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
