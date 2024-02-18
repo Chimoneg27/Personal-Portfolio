@@ -11,6 +11,12 @@
     position: relative;
   }
 
+  .logo-g {
+    height: 10%;
+    width: 15%;
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  }
+
   :root {
     --header-grey: #3c3a39;
     --custom-orange: #ff6b00;
@@ -209,7 +215,7 @@
   }
 
   .cards:last-child {
-    display: none;
+    display: block;
   }
 
   .cards h4 {

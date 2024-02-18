@@ -30,7 +30,7 @@ body {
 nav {
   background-color: var(--header-grey);
   color: var(--font-white);
-  padding: 0.75rem;
+  padding: 0.5rem;
   font-family: 'Roboto', 'Times New Roman', Times, serif;
   display: flex;
   justify-content: space-between;
@@ -145,18 +145,6 @@ button:active {
   background-color: var(--hover-orange);
   color: var(--font-white);
   border: solid 2px var(--custom-orange);
-}
-
-.yoga-post button {
-  border: none;
-  font-size: 1rem;
-  color: var(--white);
-  padding: 0.75rem;
-  width: 7.75rem;
-  font-weight: 600;
-  line-height: 1.5rem;
-  font-family: 'Inter', 'Times New Roman', Times, serif;
-  background-color: var(--custom-orange);
 }
 
 .intro button {
@@ -356,22 +344,7 @@ form button:hover {
 }
 
 .cards:nth-child(3) {
-  background-image: url(../images/todo.jpg);
-  background-size: cover;
-}
-
-.cards:nth-child(4) {
-  background-image: url(../images/calculator.jpg);
-  background-size: cover;
-}
-
-.cards:nth-child(5) {
   background-image: url(../images/bookstore.jpg);
-  background-size: cover;
-}
-
-.cards:nth-child(6) {
-  background-image: url(../images/space.jpg);
   background-size: cover;
 }
 
@@ -420,7 +393,27 @@ form button:hover {
 }
 
 .cards:last-child {
-  display: none;
+  display: block;
+}
+
+.main-btn {
+  border: none;
+  font-size: 1rem;
+  color: var(--white);
+  padding: 0.95rem;
+  width: 10rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  font-family: 'Inter', 'Times New Roman', Times, serif;
+  background-color: var(--custom-orange);
+  margin: 0 auto;
+}
+
+.main-btn:hover {
+  background-color: var(--hover-orange);
+  border: 1px solid var(--custom-orange);
+  color: var(--custom-orange);
+  font-weight: 700;
 }
 
 .modal-img-two {
