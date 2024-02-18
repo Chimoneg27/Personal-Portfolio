@@ -25,34 +25,6 @@ const cardsData = [
     imageDesktop: 'images/desktop-images/copygallery.png',
   },
   {
-    name: 'Todo List App',
-    description:
-      'A simple to do list app to help you track your day to day activities. The app was built using HTML, CSS and JavaScript.',
-    descriptionOneModal:
-      'This is a project built with webpack, which is a popular open-source JavaScript module bundler that is widely used in modern web development to package and manage assets, such as JavaScript files, CSS styles, images, and more. It helps developers streamline the process of organizing, optimizing, and serving these assets for web applications.',
-    descriptionTwoModal:
-      '',
-    featuredImage: 'images/tododesk.png',
-    technologies: ['HTML', 'JavaScript', 'Webpack'],
-    liveVersion: 'https://chimoneg27.github.io/To-Do-List/',
-    sourceLink: 'https://github.com/Chimoneg27/To-Do-List',
-    imageDesktop: 'images/desktop-images/tododesk.png',
-  },
-  {
-    name: 'Math Magician',
-    description:
-      'This is my first single page app built with react. It is a simple calculator that performs basic arithmetic operations. The app was built using HTML, CSS and React.',
-    descriptionOneModal:
-      'This single page app is built with React, through the create react app features a working calculator, a home page with a random quote generator that returns a random math quote. This is my first single page app built with react.  It is fully responsive and works across multiple devices. It is built with React and CSS.',
-    descriptionTwoModal:
-      '',
-    featuredImage: 'images/math.png',
-    technologies: ['HTML', 'React', 'CSS'],
-    liveVersion: 'https://math-magician-site.onrender.com/',
-    sourceLink: 'https://github.com/Chimoneg27/math-magician-2',
-    imageDesktop: 'images/desktop-images/math.png',
-  },
-  {
     name: 'Book Store',
     description:
       'A book store app built with react-redux toolkit. The app features a home page with a list of books and a category filter. The app was built using HTML, CSS and React-Redux toolkit',
@@ -66,37 +38,12 @@ const cardsData = [
     sourceLink: 'https://github.com/Chimoneg27/Bookstore-React',
     imageDesktop: 'images/desktop-images/bookstore.png',
   },
-  {
-    name: 'Space Travelers Hub',
-    description:
-      'A single page app built with react-redux toolkit. The app features a home page with a list of rockets and a list of missions.',
-    descriptionOneModal:
-      'This is a single page app built with react-redux toolkit and CSS. The app features a home page with a list of rockets and a list of missions. The user can reserve a rocket and cancel the reservation. The user can also join a mission and cancel the reservation. It is fully responsive and works across multiple devices.',
-    descriptionTwoModal:
-      '',
-    featuredImage: 'images/spaceTraveler.png',
-    technologies: ['React', 'Redux', 'CSS'],
-    liveVersion: 'https://space-travelers-hub-bvt6.onrender.com/',
-    sourceLink: 'https://github.com/Chimoneg27/Travelers-Space-Hub',
-    imageDesktop: 'images/desktop-images/spaceTraveler.png',
-  },
-  {
-    name: 'In The Air',
-    description: 'An app used to check the quality of air in a given city. The app interacts with the openweather API to fetch air pollution data. The app was built using React, CSS and the redux-toolkit.',
-    descriptionOneModal: 'This app makes use of the openweather API to fetch air pollution data. The user can search for a city and the app will return the air quality index for that city. The app was built using React, CSS and the redux-toolkit. It is fully responsive and works across multiple devices.',
-    descriptionTwoModal: '',
-    featuredImage: 'images/airmobile.png',
-    technologies: ['Redux', 'Bootstrap', 'React', 'CSS'],
-    liveVersion: 'https://in-the-air.onrender.com/',
-    sourceLink: 'https://github.com/Chimoneg27/in-the-air',
-    imageDesktop: 'images/desktop-images/air.png',
-  },
 ];
 
 function generateCardsAndPopups() {
   const cardsContainer = document.querySelector('.project-cards');
   const popupsContainer = document.getElementById('popups-container');
-  const yogaContainer = document.querySelector('.yoga-post');
+  // const yogaContainer = document.querySelector('.yoga-post');
 
   cardsData.forEach((card, index) => {
     const cardElement = document.createElement('div');
@@ -117,25 +64,25 @@ function generateCardsAndPopups() {
 
     cardsContainer.appendChild(cardElement);
 
-    yogaContainer.innerHTML = `
-    <img src="images/airmobile.png" alt="yoga-mobile" class="yoga-one">
-    <img src="images/desktop-images/air.png" alt="yoga-mobile" class="yoga-two">
+    // yogaContainer.innerHTML = `
+    // <img src="images/airmobile.png" alt="yoga-mobile" class="yoga-one">
+    // <img src="images/desktop-images/air.png" alt="yoga-mobile" class="yoga-two">
 
-    <div class="yoga-info">
-        <h3>${card.name}</h3>
+    // <div class="yoga-info">
+    //     <h3>${card.name}</h3>
 
-        <p>${card.description}</p>
+    //     <p>${card.description}</p>
 
-        <ul>
-        <li>${card.technologies[3]}</li>
-        <li>${card.technologies[1]}</li>
-        <li>${card.technologies[2]}</li>
-        <li>${card.technologies[0]}</li>
-        </ul>
+    //     <ul>
+    //     <li>${card.technologies[3]}</li>
+    //     <li>${card.technologies[1]}</li>
+    //     <li>${card.technologies[2]}</li>
+    //     <li>${card.technologies[0]}</li>
+    //     </ul>
 
-        <button class="open-popup-button" data-index="${index}">See Project</button>
-    </div>
-    `;
+    //     <button class="open-popup-button" data-index="${index}">See Project</button>
+    // </div>
+    // `;
 
     const popupElement = document.createElement('div');
     popupElement.className = 'popup';
