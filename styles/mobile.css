@@ -348,6 +348,25 @@ form button:hover {
   background-size: cover;
 }
 
+.cards:nth-child(4) {
+  background-image: url(../images/rockets.jpg);
+  background-size: cover;
+}
+
+.cards:nth-child(5) {
+  background-image: url(../images/pages.jpg);
+  background-size: cover;
+}
+
+.cards:nth-child(6) {
+  background-image: url(../images/budgets.jpg);
+  background-size: cover;
+}
+
+.logo-g {
+  display: none;
+}
+
 .cards h4 {
   font-size: 2rem;
   font-family: 'Crete Round', 'Times New Roman', Times, serif;
