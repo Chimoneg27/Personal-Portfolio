@@ -106,26 +106,6 @@ function generateCardsAndPopups() {
 
     cardsContainer.appendChild(cardElement);
 
-    // yogaContainer.innerHTML = `
-    // <img src="images/airmobile.png" alt="yoga-mobile" class="yoga-one">
-    // <img src="images/desktop-images/air.png" alt="yoga-mobile" class="yoga-two">
-
-    // <div class="yoga-info">
-    //     <h3>${card.name}</h3>
-
-    //     <p>${card.description}</p>
-
-    //     <ul>
-    //     <li>${card.technologies[3]}</li>
-    //     <li>${card.technologies[1]}</li>
-    //     <li>${card.technologies[2]}</li>
-    //     <li>${card.technologies[0]}</li>
-    //     </ul>
-
-    //     <button class="open-popup-button" data-index="${index}">See Project</button>
-    // </div>
-    // `;
-
     const popupElement = document.createElement('div');
     popupElement.className = 'popup';
 
@@ -153,8 +133,8 @@ function generateCardsAndPopups() {
               ${card.descriptionTwoModal}
             </p>
             <div class="button-container">
-              <button><a href="${card.liveVersion}">See live</a><img src="images/desktop-images/popup.svg" alt="live-icon"></button>
-              <button><a href="${card.sourceLink}">See source</a> <img src="images/desktop-images/Icon-GitHub.svg" alt="github-icon"></button>
+              <button><a href="${card.liveVersion}" target="_blank">See live</a><img src="images/desktop-images/popup.svg" alt="live-icon"></button>
+              <button><a href="${card.sourceLink}" target="_blank">See source</a> <img src="images/desktop-images/Icon-GitHub.svg" alt="github-icon"></button>
             </div>
           </div>
         </div>
