@@ -1,4 +1,8 @@
-* {
+/* stylelint-disable csstree/validator */
+/* stylelint-disable selector-pseudo-element-colon-notation */
+*,
+:before,
+:after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -30,7 +34,7 @@ body {
 nav {
   background-color: var(--header-grey);
   color: var(--font-white);
-  padding: 0.75rem;
+  padding: 0.5rem;
   font-family: 'Roboto', 'Times New Roman', Times, serif;
   display: flex;
   justify-content: space-between;
@@ -147,18 +151,6 @@ button:active {
   border: solid 2px var(--custom-orange);
 }
 
-.yoga-post button {
-  border: none;
-  font-size: 1rem;
-  color: var(--white);
-  padding: 0.75rem;
-  width: 7.75rem;
-  font-weight: 600;
-  line-height: 1.5rem;
-  font-family: 'Inter', 'Times New Roman', Times, serif;
-  background-color: var(--custom-orange);
-}
-
 .intro button {
   border: none;
   font-size: 1rem;
@@ -183,6 +175,152 @@ button:active {
   font-size: 1.125rem;
   font-family: 'Inter', 'Times New Roman', Times, serif;
   padding: 0.75rem;
+}
+
+.gooey {
+  background-image: linear-gradient(120deg, #ccc 0%, #b36b00 100%);
+  border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+  width: 150px;
+  height: 144px;
+  animation: morph 3s linear infinite;
+  transform-style: preserve-3d;
+  outline: 1px solid transparent;
+  will-change: border-radius;
+}
+
+.gooey:before,
+.gooey:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+  box-shadow: 5px 5px 89px rgba(255, 107, 0, 0.21);
+  will-change: border-radius, transform, opacity;
+  animation-delay: 200ms;
+  background-image: linear-gradient(120deg, rgba(255, 107, 0, 0.55) 0%, rgba(255, 143, 0, 0.89) 100%);
+}
+
+.gooey:before {
+  animation: morph 3s linear infinite;
+  opacity: 0.21;
+  animation-duration: 1.5s;
+}
+
+.gooey:after {
+  animation: morph 3s linear infinite;
+  animation-delay: 400ms;
+  opacity: 0.89;
+  content: "See more?";
+  line-height: 120px;
+  text-indent: -21px;
+}
+
+@keyframes morph {
+  0%,
+  100% {
+    border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+    transform: translate3d(0, 0, 0) rotateZ(0.01deg);
+  }
+
+  34% {
+    border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
+    transform: translate3d(0, 5px, 0) rotateZ(0.01deg);
+  }
+
+  50% {
+    opacity: 0.89;
+    transform: translate3d(0, 0, 0) rotateZ(0.01deg);
+  }
+
+  67% {
+    border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+    transform: translate3d(0, -3px, 0) rotateZ(0.01deg);
+  }
+}
+
+@keyframes fadeIn {
+  100% {
+    transform: scale(1.03);
+    opacity: 0;
+  }
+}
+
+.split {
+  width: 350px;
+  height: 60px;
+  font-size: 4rem;
+  font-family: sans-serif;
+  margin: 0 auto 2.5rem auto;
+  position: relative;
+  z-index: 1;
+}
+
+.split div {
+  position: absolute;
+  left: 0;
+  text-transform: uppercase;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+.upper {
+  top: 0;
+  height: 52.5%;
+  color: #fff;
+  overflow: hidden;
+  z-index: 3;
+  animation: moveUp 2.5s ease-in-out infinite;
+  background-color: #1c1a19;
+}
+
+.lower {
+  bottom: 0;
+  height: 100%;
+  background: linear-gradient(180deg, #1c1a19 52.5%, #fff 52.5%);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  z-index: 1;
+  animation: moveDown 2.5s ease-in-out infinite;
+}
+
+.inside {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-40%);
+  text-align: center;
+  z-index: 2;
+  font-size: 1.25rem;
+  color: var(--custom-orange);
+}
+
+@keyframes moveUp {
+  0%,
+  100% {
+    top: 0;
+  }
+
+  50%,
+  70% {
+    top: -45px;
+  }
+}
+
+@keyframes moveDown {
+  0%,
+  100% {
+    top: 0;
+  }
+
+  50%,
+  70% {
+    top: 30px;
+  }
 }
 
 .headline {
@@ -356,23 +494,27 @@ form button:hover {
 }
 
 .cards:nth-child(3) {
-  background-image: url(../images/todo.jpg);
-  background-size: cover;
-}
-
-.cards:nth-child(4) {
-  background-image: url(../images/calculator.jpg);
-  background-size: cover;
-}
-
-.cards:nth-child(5) {
   background-image: url(../images/bookstore.jpg);
   background-size: cover;
 }
 
-.cards:nth-child(6) {
-  background-image: url(../images/space.jpg);
+.cards:nth-child(4) {
+  background-image: url(../images/rockets.jpg);
   background-size: cover;
+}
+
+.cards:nth-child(5) {
+  background-image: url(../images/pages.jpg);
+  background-size: cover;
+}
+
+.cards:nth-child(6) {
+  background-image: url(../images/budgets.jpg);
+  background-size: cover;
+}
+
+.logo-g {
+  display: none;
 }
 
 .cards h4 {
@@ -420,7 +562,24 @@ form button:hover {
 }
 
 .cards:last-child {
-  display: none;
+  display: block;
+}
+
+.main-btn {
+  border: none;
+  font-size: 1rem;
+  color: var(--white);
+  padding: 0.95rem;
+  width: 10rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  font-family: 'Inter', 'Times New Roman', Times, serif;
+  background-color: var(--custom-orange);
+  margin: 0 auto;
+}
+
+.main-btn:hover {
+  cursor: pointer;
 }
 
 .modal-img-two {

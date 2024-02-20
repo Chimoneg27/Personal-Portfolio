@@ -1,5 +1,8 @@
+/* stylelint-disable selector-pseudo-element-colon-notation */
 @media screen and (min-width: 769px) {
-  * {
+  *,
+  :before,
+  :after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,6 +12,13 @@
     width: 100%;
     overflow-x: hidden;
     position: relative;
+  }
+
+  .logo-g {
+    height: 10%;
+    width: 15%;
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    display: block;
   }
 
   :root {
@@ -209,7 +219,7 @@
   }
 
   .cards:last-child {
-    display: none;
+    display: block;
   }
 
   .cards h4 {
